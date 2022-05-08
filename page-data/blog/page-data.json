@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-blog-js",
     "path": "/blog/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Sortout Code"}},"allMarkdownRemark":{"nodes":[{"fields":{"slug":"/blog/how-to-use-roboto-font-in-bootstrap/"},"excerpt":"Hi Friends 👋, Welcome To Sortout Code! ❤️ Here, You can see Sortout Code’s Achivements… Birth 1st May, 2022 Started sortoutcode.com First…","timeToRead":1,"frontmatter":{"date":"May 01, 2022","description":"Example of use roboto fonts in bootstrap with step by step tutorial - Sortout Code","title":"Intro To Sortout Code","tags":["Bootstrap"]}}]}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"Sortout Code"}},"allMarkdownRemark":{"nodes":[{"fields":{"slug":"/blog/intro-to-sortout-code/"},"excerpt":"Hi Friends 👋, Welcome To Sortout Code! ❤️ Here, You can see Sortout Code’s Achivements… Birth 1st May, 2022 Started sortoutcode.com First…","timeToRead":1,"frontmatter":{"date":"May 01, 2022","description":"Example of use roboto fonts in bootstrap with step by step tutorial - Sortout Code","title":"Intro To Sortout Code","tags":["Bootstrap"]}}]}},"pageContext":{}},
     "staticQueryHashes": ["2555585279","2714594843","3159585216"]}
