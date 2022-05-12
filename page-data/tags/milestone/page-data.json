@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/milestone/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/intro-to-sortout-code/"},"frontmatter":{"date":"May 01, 2022","description":"Milestone of SortoutCode","tags":["Milestone"],"title":"Intro To Sortout Code"},"timeToRead":1,"excerpt":"Hi Friends 👋, Welcome To SortoutCode! ❤️ Here, You can see SortoutCode’s Achievements… Birth 1st May 2022 Started sortoutcode.com First…"}]}},"pageContext":{"tag":"Milestone"}},
+    "staticQueryHashes": ["2555585279","2714594843","3159585216"]}

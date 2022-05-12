@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/vue/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":2,"nodes":[{"fields":{"slug":"/blog/how-to-define-global-variable-is-vuejs/"},"frontmatter":{"date":"May 11, 2022","description":"How to define Global Variable in Vue.js.","tags":["Vue"],"title":"How to define the global variable in Vue.js"},"timeToRead":1,"excerpt":"Hi Friends 👋, Welcome To SortoutCode! ❤️ Sometimes we need to use a particular URL or some other information on the multiple pages or…"},{"fields":{"slug":"/blog/how-to-setup-404-page-in-vue-js/"},"frontmatter":{"date":"May 11, 2021","description":"Setup a custome 404 page step by step in vue.js","tags":["Vue"],"title":"How to setup 404 page in Vue js"},"timeToRead":1,"excerpt":"Hi Friends 👋, Welcome To SortoutCode! ❤️ Sometimes users enter the wrong URL, instead of showing a blank page, we can show a 404 page.\nSo…"}]}},"pageContext":{"tag":"Vue"}},
+    "staticQueryHashes": ["2555585279","2714594843","3159585216"]}
