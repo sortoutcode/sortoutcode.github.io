@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sortout Code]]></title><description><![CDATA[A Sortout Code build for developers and by developers.]]></description><link>https://sortoutcode.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 12 May 2022 13:50:57 GMT</lastBuildDate><item><title><![CDATA[About Mee]]></title><description><![CDATA[Hey there, what’s up? Sortout Code is a tech blog created with the sole purpose of explaining complex tech in a simple and concise way thus…]]></description><link>https://sortoutcode.com/about/</link><guid isPermaLink="false">https://sortoutcode.com/about/</guid><content:encoded>&lt;h1&gt;Hey there, what’s up?&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sortout Code]]></title><description><![CDATA[A Sortout Code build for developers and by developers.]]></description><link>https://sortoutcode.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 18 May 2022 17:33:54 GMT</lastBuildDate><item><title><![CDATA[About Mee]]></title><description><![CDATA[Hey there, what’s up? Sortout Code is a tech blog created with the sole purpose of explaining complex tech in a simple and concise way thus…]]></description><link>https://sortoutcode.com/about/</link><guid isPermaLink="false">https://sortoutcode.com/about/</guid><content:encoded>&lt;h1&gt;Hey there, what’s up?&lt;/h1&gt;
 &lt;p&gt;Sortout Code is a tech blog created with the sole purpose of explaining complex tech in a simple and concise way thus creating value for budding developers out there.&lt;/p&gt;
 &lt;p&gt;Here you will find blogs on the latest tech, tutorials on programming languages, explanations to data structure and algorithm concepts and questions, and much more… So stay tuned!!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Contact Me]]></title><description><![CDATA[Get in Touch. If you’ve got an inquiry for a job or project,drop me a line at hello@hello.com or fill the form right here.]]></description><link>https://sortoutcode.com/contact/</link><guid isPermaLink="false">https://sortoutcode.com/contact/</guid><content:encoded>&lt;h1&gt;Get in Touch.&lt;/h1&gt;
 &lt;p&gt;If you’ve got an inquiry for a job or project,drop me a line at hello@hello.com or fill the form right here.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Disclaimer]]></title><description><![CDATA[Welcome to Sortout Code! All the information on this website - https://sortoutcode.com/ - is published in good faith and for general…]]></description><link>https://sortoutcode.com/disclaimer/</link><guid isPermaLink="false">https://sortoutcode.com/disclaimer/</guid><content:encoded>&lt;p&gt;Welcome to Sortout Code!&lt;/p&gt;
@@ -134,7 +134,148 @@
 &lt;li&gt;limit any of our or your liabilities in any way that is not permitted under applicable law; or&lt;/li&gt;
 &lt;li&gt;exclude any of our or your liabilities that may not be excluded under applicable law. The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to define the global variable in Vue.js]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Sometimes we need to use a particular URL or some other information on the multiple pages or…]]></description><link>https://sortoutcode.com/blog/how-to-define-global-variable-is-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-define-global-variable-is-vuejs/</guid><pubDate>Wed, 11 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to define custom events in Vue.js]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Today, You will learn about the Vue.js built-in  function. Vue  lets us emit, or send, custom…]]></description><link>https://sortoutcode.com/blog/how-to-define-custom-events-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-define-custom-events-in-vuejs/</guid><pubDate>Tue, 17 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
+&lt;p&gt;Today, You will learn about the Vue.js built-in &lt;code class=&quot;language-text&quot;&gt;$emit()&lt;/code&gt; function.&lt;/p&gt;
+&lt;p&gt;Vue &lt;code class=&quot;language-text&quot;&gt;$emit&lt;/code&gt; lets us emit, or send, custom events from a child component to its parent. In a standard Vue flow, this is the best way to trigger certain events (like closing a popup, for example) or to send data from a child component (like making a custom input).&lt;/p&gt;
+&lt;p&gt;You can access the &lt;code class=&quot;language-text&quot;&gt;$emit()&lt;/code&gt; function in component using &lt;code class=&quot;language-text&quot;&gt;this&lt;/code&gt; keyword for example &lt;code class=&quot;language-text&quot;&gt;this.$emit()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now, lets see Example of &lt;code class=&quot;language-text&quot;&gt;$emit&lt;/code&gt; function.&lt;/p&gt;
+&lt;h2&gt;1.ChildComponent&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;button @click&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;childMethod&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Click&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;button&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;ChildComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Welcome to sortoutcode.&apos;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;childMethod&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;$emit&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;get-welcome-message&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;msg&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;2.ParentComponent&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ChildComponent @get&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;welcome&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;message&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;showMessage&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;ChildComponent&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; ChildComponent &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;./ChildComponet.vue&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;ParentComponent&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;components&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;ChildComponent&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ChildComponent&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;methods&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;showMessage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;*-------------*&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+#app &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;family&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; Avenir&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Helvetica&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Arial&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; sans&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;serif&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;webkit&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;smoothing&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; antialiased&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;moz&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;osx&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;smoothing&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; grayscale&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  text&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;align&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; center&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; #2c3e50&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  margin&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;top&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 60px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For now, let’s check the output.&lt;/p&gt;
+&lt;h2&gt;Output&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e4c694ad5f26e111a53ecbf6075b900e/44d59/output-of-emit-function-in-vuejs.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 69.62025316455697%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAt0lEQVQ4y62Q7QqCMBSGzy04KwsiNdcHFBhU0B3an6bT7tSfim9MlpT0obgDj+85Mh7ORuhQVVU1WZbl2792UR+hkuV5PlzYFnyT9d5Q5Wv/Ufg8ZAoqigIm6fyGXYvS9I5EZoiiK24ihpqlzCB11rPuhUgg4t/Qwgvg+hzT2RwWG8MeOWC2A6aznnVv2ROwP1B4OOJ0vmC3DxHwDfhqOwhaBmsoPJ8bgVx1ZYOQqc2aDdVHmU0JHyAqB0abyTAxAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;vue, emit&quot;
+        title=&quot;vue, emit&quot;
+        src=&quot;/static/e4c694ad5f26e111a53ecbf6075b900e/f058b/output-of-emit-function-in-vuejs.png&quot;
+        srcset=&quot;/static/e4c694ad5f26e111a53ecbf6075b900e/c26ae/output-of-emit-function-in-vuejs.png 158w,
+/static/e4c694ad5f26e111a53ecbf6075b900e/6bdcf/output-of-emit-function-in-vuejs.png 315w,
+/static/e4c694ad5f26e111a53ecbf6075b900e/f058b/output-of-emit-function-in-vuejs.png 630w,
+/static/e4c694ad5f26e111a53ecbf6075b900e/40601/output-of-emit-function-in-vuejs.png 945w,
+/static/e4c694ad5f26e111a53ecbf6075b900e/78612/output-of-emit-function-in-vuejs.png 1260w,
+/static/e4c694ad5f26e111a53ecbf6075b900e/44d59/output-of-emit-function-in-vuejs.png 1553w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;All the Best.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to declare temperary variable in vue.js]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Let’s talk about the . suppose we have to add a new property or new variable in the template. Vue…]]></description><link>https://sortoutcode.com/blog/how-to-declare-temperary-variable-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-declare-temperary-variable-in-vuejs/</guid><pubDate>Sat, 14 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
+&lt;p&gt;Let’s talk about the &lt;code class=&quot;language-text&quot;&gt;v-set&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;suppose we have to add a new property or new variable in the template.&lt;/p&gt;
+&lt;p&gt;Vue &lt;code class=&quot;language-text&quot;&gt;v-set&lt;/code&gt; allows you to add the new property to an already reactive object, and makes sure that
+this new property is also reactive.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;center&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1 &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;set&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;title=&apos;Hi Friends, Welcome To SortoutCode!&apos;&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;center&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can define the new temporary variable as a property in the template.&lt;/p&gt;
+&lt;p&gt;In the method, you can access this new set property using &lt;code class=&quot;language-text&quot;&gt;this&lt;/code&gt; keyword.&lt;/p&gt;
+&lt;p&gt;like this &lt;code class=&quot;language-text&quot;&gt;this.title&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For now, let’s check the output.&lt;/p&gt;
+&lt;h2&gt;Output&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/934dba10906a60d71ccb9be829cfd331/9e818/1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.79746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABtklEQVQoz4WRT28SQRiH9268bPkn7M7OzjILtUZNdLsKS4OEejRetEA9UZIaL34Ev52QmF5tUhONd7yKJMBjZusSqhDf5Mk772Ge/N4ZK0katI6OaDQaxPET4jim2WzSarVIkoROp0O73SaKIhpJk/gwJooOefQ4olarY9t7FCplpONSyRWwpO8RhPtIpRGuixAC1xU4rnvdHQfHcZHSp1As0u8P+Hx5yWQyYTyeMP445tPFBV+urvj+9RuWlBLl+9zXIVUdooIArSRa+VSVj67q9BzWNMVSgfO37zA1m/3kx3TKdDrl12xGVpbnXScMawcYuZnlJlKmXSlFLpfj7OyMbbVcLlMspXz27z7g3sFD6jrANStvYlYXIhXbts1oNLohWK1Wa9KERqiqAVIFeJ5I33AbmTBLuCnZLEv8SSKyNDv4O+FOoXkzcyH74f8lHA6HN4T/rCw8iSs8TBeetxPpK/ZyeQanb7YmzGZLlIs4pTyu4U4+PW/Dq5Swb9/i9OTV1oTrlctPX6A7r9HdPvLZCbrbo3bcp37cJ+z20tn0+vMBTvMlvfcf1kLzy/P5PGWxWKTC3yl97Yo3WRCqAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Rocket launch&quot;
+        title=&quot;Rocket launch&quot;
+        src=&quot;/static/934dba10906a60d71ccb9be829cfd331/f058b/1.png&quot;
+        srcset=&quot;/static/934dba10906a60d71ccb9be829cfd331/c26ae/1.png 158w,
+/static/934dba10906a60d71ccb9be829cfd331/6bdcf/1.png 315w,
+/static/934dba10906a60d71ccb9be829cfd331/f058b/1.png 630w,
+/static/934dba10906a60d71ccb9be829cfd331/40601/1.png 945w,
+/static/934dba10906a60d71ccb9be829cfd331/78612/1.png 1260w,
+/static/934dba10906a60d71ccb9be829cfd331/9e818/1.png 1913w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;All the Best.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to define the global variable in Vue.js]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Sometimes we need to use a particular URL or some other information on the multiple pages or…]]></description><link>https://sortoutcode.com/blog/how-to-define-global-variable-is-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-define-global-variable-is-vuejs/</guid><pubDate>Wed, 11 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
 &lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
 &lt;p&gt;Sometimes we need to use a particular URL or some other information on the multiple pages or components.&lt;/p&gt;
 &lt;p&gt;So, we declare the global variable in &lt;code class=&quot;language-text&quot;&gt;main.js&lt;/code&gt;. we can declare it once and use it multiple times on different pages.&lt;/p&gt;
@@ -254,4 +395,5 @@ Vue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;All the Best.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;All the Best.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;#vue #vue-router #404 #not-found&lt;/code&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
