@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sortout Code]]></title><description><![CDATA[A Sortout Code build for developers and by developers.]]></description><link>https://sortoutcode.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 18 May 2022 17:33:54 GMT</lastBuildDate><item><title><![CDATA[About Mee]]></title><description><![CDATA[Hey there, what’s up? Sortout Code is a tech blog created with the sole purpose of explaining complex tech in a simple and concise way thus…]]></description><link>https://sortoutcode.com/about/</link><guid isPermaLink="false">https://sortoutcode.com/about/</guid><content:encoded>&lt;h1&gt;Hey there, what’s up?&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sortout Code]]></title><description><![CDATA[A Sortout Code build for developers and by developers.]]></description><link>https://sortoutcode.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 25 May 2022 17:34:00 GMT</lastBuildDate><item><title><![CDATA[About Mee]]></title><description><![CDATA[Hey there, what’s up? Sortout Code is a tech blog created with the sole purpose of explaining complex tech in a simple and concise way thus…]]></description><link>https://sortoutcode.com/about/</link><guid isPermaLink="false">https://sortoutcode.com/about/</guid><content:encoded>&lt;h1&gt;Hey there, what’s up?&lt;/h1&gt;
 &lt;p&gt;Sortout Code is a tech blog created with the sole purpose of explaining complex tech in a simple and concise way thus creating value for budding developers out there.&lt;/p&gt;
 &lt;p&gt;Here you will find blogs on the latest tech, tutorials on programming languages, explanations to data structure and algorithm concepts and questions, and much more… So stay tuned!!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Contact Me]]></title><description><![CDATA[Get in Touch. If you’ve got an inquiry for a job or project,drop me a line at hello@hello.com or fill the form right here.]]></description><link>https://sortoutcode.com/contact/</link><guid isPermaLink="false">https://sortoutcode.com/contact/</guid><content:encoded>&lt;h1&gt;Get in Touch.&lt;/h1&gt;
 &lt;p&gt;If you’ve got an inquiry for a job or project,drop me a line at hello@hello.com or fill the form right here.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Disclaimer]]></title><description><![CDATA[Welcome to Sortout Code! All the information on this website - https://sortoutcode.com/ - is published in good faith and for general…]]></description><link>https://sortoutcode.com/disclaimer/</link><guid isPermaLink="false">https://sortoutcode.com/disclaimer/</guid><content:encoded>&lt;p&gt;Welcome to Sortout Code!&lt;/p&gt;
@@ -134,13 +134,287 @@
 &lt;li&gt;limit any of our or your liabilities in any way that is not permitted under applicable law; or&lt;/li&gt;
 &lt;li&gt;exclude any of our or your liabilities that may not be excluded under applicable law. The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to define custom events in Vue.js]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Today, You will learn about the Vue.js built-in  function. Vue  lets us emit, or send, custom…]]></description><link>https://sortoutcode.com/blog/how-to-define-custom-events-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-define-custom-events-in-vuejs/</guid><pubDate>Tue, 17 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to define and render an array of data in VueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Today, I am going to show you How to define and render an array of data in VueJS? Table of Content…]]></description><link>https://sortoutcode.com/blog/how-to-create-array-and-render-array-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-create-array-and-render-array-in-vuejs/</guid><pubDate>Tue, 24 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
 &lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
-&lt;p&gt;Today, You will learn about the Vue.js built-in &lt;code class=&quot;language-text&quot;&gt;$emit()&lt;/code&gt; function.&lt;/p&gt;
+&lt;p&gt;Today, I am going to show you &lt;strong&gt;&lt;em&gt;How to define and render an array of data in VueJS?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Table of Content&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup the Vue (Optional)&lt;/li&gt;
+&lt;li&gt;Define array in data&lt;/li&gt;
+&lt;li&gt;Render the Array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article will guide you to &lt;strong&gt;how to define an array and how to render the array in vueJS&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Step 1: Setup the Vue (Optional)&lt;/h2&gt;
+&lt;p&gt;First, we have to install the Vue project, I had installed the vueJS in my system. If you haven’t installed or have any problem with installation you can follow this article, it will show you step by step process of installation.
+&lt;a href=&quot;/blog/how-to-setup-vuejs-project/&quot; target=&quot;_BLANK&quot;&gt;How to Install the VueJS project?&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;step 2: Define array in data&lt;/h2&gt;
+&lt;p&gt;First, I am going to create a component with the name &lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt; and register it.
+Data is the private memory of each component where you can store any variables you need.&lt;/p&gt;
+&lt;p&gt;First of all, what are the data? &lt;/p&gt;
+&lt;p&gt;Data is used to define properties in a particular component. In a single-file component, data is a function that returns a set of properties that have been defined in the function.&lt;/p&gt;
+&lt;p&gt;I am going to add a &lt;strong&gt;items&lt;/strong&gt; array property to our &lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt; component, I can do it using data as shown in the script:&lt;/p&gt;
+&lt;h3&gt;FirstComponent.vue&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FirstComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Hi Friends&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Welcome To SortoutCode!&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Step 3: Render the Array&lt;/h2&gt;
+&lt;p&gt;we can render a list of items based on our &lt;strong&gt;&lt;em&gt;items&lt;/em&gt;&lt;/strong&gt; array using the &lt;code class=&quot;language-text&quot;&gt;v-for&lt;/code&gt;. The &lt;code class=&quot;language-text&quot;&gt;v-for&lt;/code&gt; directive requires a special syntax in the form of &lt;code class=&quot;language-text&quot;&gt;item in items&lt;/code&gt;, where items are the source data array and item is an alias for the array element being iterated on:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div v&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;item in items&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;key&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;item.id&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h2&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;item&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h2&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FirstComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;token literal-property property&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Hi Friends&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Welcome To SortoutCode!&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For now, let’s check the output.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1bc59139beaf616fb3cd6b8302552d62/9b379/create-array-and-render-array.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37.34177215189873%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABJ0AAASdAHeZh94AAAAhklEQVQoz6WQAQuDIBCF+/8/cbTSzGqwwRbkKakvcjjEgYv2wXGHvpP3rJDgvf/0WM45rKt9n2d36U6kQkYueL5msE7iUre43R9F7deDUbC7urIODe8h5AgxTGi4QMv70JmQsNb+dpjG0MZgUQStTZiJNBQRFqXCfDpyicOR048v1SGH/7IBm70o42dYDX4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Render Array&quot;
+        title=&quot;Render Array&quot;
+        src=&quot;/static/1bc59139beaf616fb3cd6b8302552d62/f058b/create-array-and-render-array.png&quot;
+        srcset=&quot;/static/1bc59139beaf616fb3cd6b8302552d62/c26ae/create-array-and-render-array.png 158w,
+/static/1bc59139beaf616fb3cd6b8302552d62/6bdcf/create-array-and-render-array.png 315w,
+/static/1bc59139beaf616fb3cd6b8302552d62/f058b/create-array-and-render-array.png 630w,
+/static/1bc59139beaf616fb3cd6b8302552d62/40601/create-array-and-render-array.png 945w,
+/static/1bc59139beaf616fb3cd6b8302552d62/9b379/create-array-and-render-array.png 951w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;All the Best.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Setup the VueJS project?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Today, I am going to show you how to install VueJS globally with a project example.  Vue is a…]]></description><link>https://sortoutcode.com/blog/how-to-setup-vuejs-project/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-setup-vuejs-project/</guid><pubDate>Thu, 19 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
+&lt;p&gt;Today, I am going to show you &lt;strong&gt;&lt;em&gt;how to install VueJS globally&lt;/em&gt;&lt;/strong&gt; with a project example. &lt;/p&gt;
+&lt;p&gt;Vue is a javascript framework that is built for user interfaces. It is a component-based programming model that helps you efficiently develop user interfaces, be it simple or complex.&lt;/p&gt;
+&lt;p&gt;Before the vueJS framework installation, there are some pre-requirement &lt;/p&gt;
+&lt;p&gt;That is &lt;strong&gt;&lt;em&gt;Node.js&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Table of contents&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install the node&lt;/li&gt;
+&lt;li&gt;Install Vue globally&lt;/li&gt;
+&lt;li&gt;Create a Vue project&lt;/li&gt;
+&lt;li&gt;Run the Vue project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article will guide you to install the Vue framework with an example.&lt;/p&gt;
+&lt;h2&gt;Step 1: Install the node&lt;/h2&gt;
+&lt;p&gt;For installing the node.js, go to node.js official website and download the current version of nodejs.&lt;/p&gt;
+&lt;p&gt;Node.js is, allows developers to write JavaScript code that runs directly in a computer process itself instead of in a browser.&lt;/p&gt;
+&lt;p&gt;You can download the nodejs application from the official website &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node. js&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/06334dc93454001724fa193c5f8507de/29114/node-install.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.32911392405063%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACSklEQVQoz23MaU8TYRSG4RGFbsy0s3Zxus3S6XSb0o3VBVEKRktpLbQCISYuxGiMMX72p9+GagkSP1x5857zPEcot8d4rRFe6xi7McBZCAbzvxsMeTq4ZG/wAav2Gic4mu9uZ/zOmErvhP7RFUKuMmAhXz2ac5pjrMYxTjCav5WNCbXN6c3M/bvPVRedASn3kOHsB0JUSvEPMUVMSqMahRuKVkBUMohqGknLIMppomLyJr8aT/MgpNDpPUEIxzTuMooFrEYFq3atit2okq94ZP0SOb9Evl5CyZiEo+o8HxV17j0QaXW3ESKrOnfF4inCioZimeSCMub8iE+2XiKezxCVDWJS8iYfFQ2WliXa3Z3/HJR0IssGobU4+hcD86tJqB8jNpHIfcuhftRYKSSIhA0i4uJgkqXlOO3uI4RQVOa2lUiClZCMmNTJ1As8rBdRrBSSrWJUHiJ7BuGETCii/O0oRGIqwv0Yrc4WgqRaLIiajZ7xSOg2olxE1T1UvYysO3MJzUbWHMREEVEp/umoFnHNJrRqsr69j2A1T7GbU6zglFJ3xvqL9wQ77yj3zimvX+Cvn1PuXeC0Zlxn3fZbmruf8HoX847bnuF1zshW33Aw+o7gro1wmiPsYIjfPeHxwSe2+h/Yen5Je+uU+uaUxuaUcmeCFQxxW2PWdt9R3ZhiB8d47THV3gl2Y0h/+Bmhs7HNweEr9vsveba3z+hoguf77I7OGF39Yvv8J53DGWnTJFuwMQsWmWwe23FwPZ+iU8JyPbxKjXK1xm+p2EBvmpQbvAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;vue, node&quot;
+        title=&quot;vue, node&quot;
+        src=&quot;/static/06334dc93454001724fa193c5f8507de/f058b/node-install.png&quot;
+        srcset=&quot;/static/06334dc93454001724fa193c5f8507de/c26ae/node-install.png 158w,
+/static/06334dc93454001724fa193c5f8507de/6bdcf/node-install.png 315w,
+/static/06334dc93454001724fa193c5f8507de/f058b/node-install.png 630w,
+/static/06334dc93454001724fa193c5f8507de/40601/node-install.png 945w,
+/static/06334dc93454001724fa193c5f8507de/78612/node-install.png 1260w,
+/static/06334dc93454001724fa193c5f8507de/29114/node-install.png 1920w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;After the download is complete, install the node application in your system.&lt;/p&gt;
+&lt;h2&gt;Step 2: Install Vue.js globally&lt;/h2&gt;
+&lt;p&gt;Using this command you can install the Vue.js framework globally in your system&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;npm install &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;g @vue&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can install vue using ‘npm’.&lt;/p&gt;
+&lt;p&gt;In this article, I am installing the project using the &lt;code class=&quot;language-text&quot;&gt;npm install -g @vue/cli&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You can verify that it is properly installed by simply running &lt;code class=&quot;language-text&quot;&gt;vue&lt;/code&gt;, which should present you with a help message listing all available commands.&lt;/p&gt;
+&lt;p&gt;For example, you can run this &lt;code class=&quot;language-text&quot;&gt;vue --version&lt;/code&gt; command to know your &lt;strong&gt;vue/cli&lt;/strong&gt;  version. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2f7b9c78cda1b91fa4eb347da47d9ef0/97655/vue-version.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 14.556962025316455%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABJ0AAASdAHeZh94AAAAXklEQVQI15WOOw7AIAzFWPkIQYEGlAzJ/Q/5KpC6t4M3y7IjIsw5wcwgutHahTEG1lrIOSOEgBjjZ5yqQoShZidcSkGt9UR3cEsppc84EcHGzNB7g/f+RN6zLf05fACLlEaCeqLLfQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;vue, vue/cli&quot;
+        title=&quot;vue, vue/cli&quot;
+        src=&quot;/static/2f7b9c78cda1b91fa4eb347da47d9ef0/f058b/vue-version.png&quot;
+        srcset=&quot;/static/2f7b9c78cda1b91fa4eb347da47d9ef0/c26ae/vue-version.png 158w,
+/static/2f7b9c78cda1b91fa4eb347da47d9ef0/6bdcf/vue-version.png 315w,
+/static/2f7b9c78cda1b91fa4eb347da47d9ef0/f058b/vue-version.png 630w,
+/static/2f7b9c78cda1b91fa4eb347da47d9ef0/97655/vue-version.png 819w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Step 3. Create Vue js project&lt;/h2&gt;
+&lt;p&gt;To create a new project run this command:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;vue create sortoutcode&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;sortoutcode&lt;/em&gt;&lt;/strong&gt; is our project name.&lt;/p&gt;
+&lt;p&gt;It will give you the option to select, which version do you want to install &lt;strong&gt;&lt;em&gt;Vue 2 or Vue 3&lt;/em&gt;&lt;/strong&gt; or perhaps choose the &lt;strong&gt;&lt;em&gt;Manually select feature&lt;/em&gt;&lt;/strong&gt; option, in this article I’m using &lt;strong&gt;&lt;em&gt;Vue 3&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/246dc0db7ff33d3be29340dca26d01c6/1bfbd/choose-vue-version.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.56962025316456%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABJ0AAASdAHeZh94AAAAfklEQVQoz9WQOQ7DMAwEVYu6actCHDgX8v8nThC4kIFUVpdiGxIYDtdMrVHbQlFPSpGQA9ZbrB2L0ZqpS6G1Qp1ntE5IFJxzQzHb8839duX1WFkvX2gkp30pIqdjiiqqBVUlRk/wQggdeNrw+P9+pZuNQM3vsAOGDEfL/1/gB/tqzh+R+h60AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;vue, vue/cli&quot;
+        title=&quot;vue, vue/cli&quot;
+        src=&quot;/static/246dc0db7ff33d3be29340dca26d01c6/f058b/choose-vue-version.png&quot;
+        srcset=&quot;/static/246dc0db7ff33d3be29340dca26d01c6/c26ae/choose-vue-version.png 158w,
+/static/246dc0db7ff33d3be29340dca26d01c6/6bdcf/choose-vue-version.png 315w,
+/static/246dc0db7ff33d3be29340dca26d01c6/f058b/choose-vue-version.png 630w,
+/static/246dc0db7ff33d3be29340dca26d01c6/40601/choose-vue-version.png 945w,
+/static/246dc0db7ff33d3be29340dca26d01c6/78612/choose-vue-version.png 1260w,
+/static/246dc0db7ff33d3be29340dca26d01c6/1bfbd/choose-vue-version.png 1743w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Step 3: Run the Vue project&lt;/h2&gt;
+&lt;p&gt;Open the Command prompt Go to your project directory and run this command &lt;code class=&quot;language-text&quot;&gt;npm run serve&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;After running this command &lt;strong&gt;npm run serve&lt;/strong&gt; server is started. Now go to Browser, and run the localhost &lt;strong&gt;&lt;a href=&quot;http://localhost:8080/&quot;&gt;http://localhost:8080/&lt;/a&gt;&lt;/strong&gt; to open your project is running.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dae11185bfb88f1ffc6ba67e9fc7ea74/29114/vue-project-run.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.32911392405063%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABcElEQVQoz42Sy07CQBiF+0SCGmiJ7I2uSGQhLLwv3PgEbtz4APoQbvBhYNFCoAi0tRfAlgIC7Ux7TKfBcBWbfPlPT05O/swMJ0lVRIiihHK5skwlnvVqjbHoLSJJEmS5yTo47Pi00MVz6Y2hBINdcXCUBqCUboZQFrp9f8V16YXpyNuUDYK4Z+OGYRjGE/FUZzaU2deSN8+sbbitbOZ5aLZVdDQdltmDaXSZbquf8Dx/a+nWwmj96XQGdziCPXTRGzmwx0PmEUL+X7ga9H2Crm2j5zhMrx1LGP7CCqPD3AahFD4l6Do2+q4DnxDmreaisrn+89lE+wQABpNvDCZjRHdOEf79bCzLgmmaDMMw0Le6sCKtK2i0ZbSUFkS5BlGuQ1ZaaHQ+oGgqDENneU3ToGoqdD3+545PT1AsFnFeKCCfz+Pm4gqCkELu8g65hyec3T8iJfBIHCSR2I/ZSyaQ5g/BZ3ik+DTSAo+jbBZ8RsAPBMglIKLUz8gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;vue, vue/cli&quot;
+        title=&quot;vue, vue/cli&quot;
+        src=&quot;/static/dae11185bfb88f1ffc6ba67e9fc7ea74/f058b/vue-project-run.png&quot;
+        srcset=&quot;/static/dae11185bfb88f1ffc6ba67e9fc7ea74/c26ae/vue-project-run.png 158w,
+/static/dae11185bfb88f1ffc6ba67e9fc7ea74/6bdcf/vue-project-run.png 315w,
+/static/dae11185bfb88f1ffc6ba67e9fc7ea74/f058b/vue-project-run.png 630w,
+/static/dae11185bfb88f1ffc6ba67e9fc7ea74/40601/vue-project-run.png 945w,
+/static/dae11185bfb88f1ffc6ba67e9fc7ea74/78612/vue-project-run.png 1260w,
+/static/dae11185bfb88f1ffc6ba67e9fc7ea74/29114/vue-project-run.png 1920w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;All the best 👍&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to define custom events in VueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Today, I am going to show to you How to define custom events with Vue built-in ‘emit()’ function…]]></description><link>https://sortoutcode.com/blog/how-to-define-custom-events-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-define-custom-events-in-vuejs/</guid><pubDate>Tue, 17 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
+&lt;p&gt;Today, I am going to show to you &lt;strong&gt;&lt;em&gt;How to define custom events with Vue built-in ‘emit()’ function in VueJS.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Vue &lt;code class=&quot;language-text&quot;&gt;$emit&lt;/code&gt; lets us emit, or send, custom events from a child component to its parent. In a standard Vue flow, this is the best way to trigger certain events (like closing a popup, for example) or to send data from a child component (like making a custom input).&lt;/p&gt;
-&lt;p&gt;You can access the &lt;code class=&quot;language-text&quot;&gt;$emit()&lt;/code&gt; function in component using &lt;code class=&quot;language-text&quot;&gt;this&lt;/code&gt; keyword for example &lt;code class=&quot;language-text&quot;&gt;this.$emit()&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Now, lets see Example of &lt;code class=&quot;language-text&quot;&gt;$emit&lt;/code&gt; function.&lt;/p&gt;
-&lt;h2&gt;1.ChildComponent&lt;/h2&gt;
+&lt;p&gt;Table of content&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup the Vue (Optional)&lt;/li&gt;
+&lt;li&gt;How does the Vue Emit work?&lt;/li&gt;
+&lt;li&gt;Define the $emit event in child components&lt;/li&gt;
+&lt;li&gt;Trigger the Event in Parent Components&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article guides us to &lt;strong&gt;How to define the $emit function to trigger the event in the parent component in VueJS.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Step 1: Setup the Vue (Optional)&lt;/h2&gt;
+&lt;p&gt;First, we have to install the Vue project, I had installed the vueJS in my system. If you haven’t installed or have any problem with installation you can follow this article, it will show you step by step process of installation.
+&lt;a href=&quot;/blog/how-to-setup-vuejs-project/&quot; target=&quot;_BLANK&quot;&gt;How to Setup the VueJS project?&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Step 2: How does the Vue Emit work?&lt;/h2&gt;
+&lt;p&gt;Vue &lt;code class=&quot;language-text&quot;&gt;$emit()&lt;/code&gt; function call can pass with two parameters. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The event name – this is the name that we can listen to in our parent component&lt;/li&gt;
+&lt;li&gt;A payload object – data that we want to pass with the event; this is optional&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here’s an example of a typical emit using both parameters &lt;code class=&quot;language-text&quot;&gt;$emit(&apos;event-name, data)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;There is a different way to use Vue $emit.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inline using $emit&lt;/li&gt;
+&lt;li&gt;Options API – this.$emit&lt;/li&gt;
+&lt;li&gt;Composition API – context.emit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Step 3: Define the $emit() in child components&lt;/h2&gt;
+&lt;p&gt;First I’m going to set an on-click event for the the syntex is &lt;code class=&quot;language-text&quot;&gt;@click&lt;/code&gt; and your function name.In Below code &lt;code class=&quot;language-text&quot;&gt;@click=&quot;childMethod&quot;&lt;/code&gt;. ‘childMethod’ is name method. we can access the &lt;code class=&quot;language-text&quot;&gt;$emit()&lt;/code&gt; function in component using &lt;code class=&quot;language-text&quot;&gt;this&lt;/code&gt; keyword for example &lt;code class=&quot;language-text&quot;&gt;this.$emit()&lt;/code&gt;.
+&lt;code class=&quot;language-text&quot;&gt;$emit()&lt;/code&gt; sends an event up the component tree. In emitting () the first parameter is the method and the other one data&lt;/p&gt;
+&lt;p&gt;Now, let us see an example of the &lt;code class=&quot;language-text&quot;&gt;$emit&lt;/code&gt; function.&lt;/p&gt;
+&lt;h3&gt;ChildComponent.vue&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
         &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;button @click&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;childMethod&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Click&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;button&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
@@ -163,12 +437,17 @@
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;2.ParentComponent&lt;/h2&gt;
+&lt;h2&gt;Step 4: Trigger the Event in Parent Components&lt;/h2&gt;
+&lt;p&gt;In the Parent Components, First I have to import the Child Components in the script and also export the Child Components.
+After that, I am using the ‘ChildComponent’ in the template.&lt;/p&gt;
+&lt;p&gt;Parent Component setup like this, listening for a custom &lt;code class=&quot;language-text&quot;&gt;get-welcome-message&lt;/code&gt; event and logging its value.
+And trigger the &lt;code class=&quot;language-text&quot;&gt;showMessage&lt;/code&gt; events in Parent Components.&lt;/p&gt;
+&lt;h3&gt;ParentComponent.vue&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
   &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ChildComponent @get&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;welcome&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;message&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;showMessage&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;ChildComponent&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; ChildComponent &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;./ChildComponet.vue&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; ChildComponent &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;./ChildComponent.vue&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;ParentComponent&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
   &lt;span class=&quot;token literal-property property&quot;&gt;components&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -181,18 +460,7 @@
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-
-&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-#app &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;family&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; Avenir&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Helvetica&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Arial&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; sans&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;serif&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;webkit&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;smoothing&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; antialiased&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;moz&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;osx&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;smoothing&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; grayscale&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  text&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;align&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; center&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token literal-property property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; #2c3e50&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  margin&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;top&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 60px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;For now, let’s check the output.&lt;/p&gt;
 &lt;h2&gt;Output&lt;/h2&gt;
 &lt;p&gt;&lt;span
@@ -227,20 +495,36 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;All the Best.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to declare temperary variable in vue.js]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Let’s talk about the . suppose we have to add a new property or new variable in the template. Vue…]]></description><link>https://sortoutcode.com/blog/how-to-declare-temperary-variable-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-declare-temperary-variable-in-vuejs/</guid><pubDate>Sat, 14 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;All the Best.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to declare a temporary variable in vueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Today, I am going to show you How to declare a temporary variable in vueJS. Vue. set is a tool…]]></description><link>https://sortoutcode.com/blog/how-to-declare-temporary-variable-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-declare-temporary-variable-in-vuejs/</guid><pubDate>Sat, 14 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
 &lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
-&lt;p&gt;Let’s talk about the &lt;code class=&quot;language-text&quot;&gt;v-set&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;suppose we have to add a new property or new variable in the template.&lt;/p&gt;
-&lt;p&gt;Vue &lt;code class=&quot;language-text&quot;&gt;v-set&lt;/code&gt; allows you to add the new property to an already reactive object, and makes sure that
-this new property is also reactive.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;p&gt;Today, I am going to show you &lt;strong&gt;&lt;em&gt;How to declare a temporary variable in vueJS.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vue. set&lt;/strong&gt; is a tool that allows us to add a new property to an already reactive object and makes sure that this new property is ALSO reactive.&lt;/p&gt;
+&lt;p&gt;Table of Content&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup the Vue (Optional)&lt;/li&gt;
+&lt;li&gt;Define the variable&lt;/li&gt;
+&lt;li&gt;Access the veritable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article will guide you to &lt;strong&gt;how to define the temporary variable in vueJS&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Step 1: Setup the Vue (Optional)&lt;/h2&gt;
+&lt;p&gt;First, we have to install the Vue project, I had installed the vueJS in my system. If you haven’t installed or have any problem with installation you can follow this article, it will show you step by step process of installation.
+&lt;a href=&quot;/blog/how-to-setup-vuejs-project/&quot; target=&quot;_BLANK&quot;&gt;How to Setup the VueJS project?&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Step 2: Define the variable&lt;/h2&gt;
+&lt;p&gt;In Component &lt;code class=&quot;language-text&quot;&gt;&amp;lt;center&gt;&amp;lt;/center&gt;&lt;/code&gt; tag is used to initialize the heading in the center position.
+The heading &lt;code class=&quot;language-text&quot;&gt;:set=&quot;&lt;/code&gt; is used to define the new temporary variable as a property in the Html property in the template. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;center&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1 &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;set&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;title=&apos;Hi Friends, Welcome To SortoutCode!&apos;&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;center&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;You can define the new temporary variable as a property in the template.&lt;/p&gt;
-&lt;p&gt;In the method, you can access this new set property using &lt;code class=&quot;language-text&quot;&gt;this&lt;/code&gt; keyword.&lt;/p&gt;
-&lt;p&gt;like this &lt;code class=&quot;language-text&quot;&gt;this.title&lt;/code&gt;.&lt;/p&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Step 3: access the variable&lt;/h2&gt;
+&lt;p&gt;we can access the temporary variable in methods using the  &lt;code class=&quot;language-text&quot;&gt;this&lt;/code&gt; keyword. For Example use, we can access the title variable in methods &lt;code class=&quot;language-text&quot;&gt;this. title&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// I am going to access the title in methods&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;mounted&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;// Hi Friends, Welcome To SortoutCode!&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;For now, let’s check the output.&lt;/p&gt;
 &lt;h2&gt;Output&lt;/h2&gt;
 &lt;p&gt;&lt;span
@@ -260,8 +544,8 @@ this new property is also reactive.&lt;/p&gt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Rocket launch&quot;
-        title=&quot;Rocket launch&quot;
+        alt=&quot;Temporary Variable&quot;
+        title=&quot;Temporary Variable&quot;
         src=&quot;/static/934dba10906a60d71ccb9be829cfd331/f058b/1.png&quot;
         srcset=&quot;/static/934dba10906a60d71ccb9be829cfd331/c26ae/1.png 158w,
 /static/934dba10906a60d71ccb9be829cfd331/6bdcf/1.png 315w,
@@ -275,17 +559,30 @@ this new property is also reactive.&lt;/p&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;All the Best.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to define the global variable in Vue.js]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Sometimes we need to use a particular URL or some other information on the multiple pages or…]]></description><link>https://sortoutcode.com/blog/how-to-define-global-variable-is-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-define-global-variable-is-vuejs/</guid><pubDate>Wed, 11 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;All the Best.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to define the global variable in VueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Today, I am going to show you How to define the global variable in VueJS. A global variable is a…]]></description><link>https://sortoutcode.com/blog/how-to-define-global-variable-is-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-define-global-variable-is-vuejs/</guid><pubDate>Wed, 11 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
 &lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
-&lt;p&gt;Sometimes we need to use a particular URL or some other information on the multiple pages or components.&lt;/p&gt;
-&lt;p&gt;So, we declare the global variable in &lt;code class=&quot;language-text&quot;&gt;main.js&lt;/code&gt;. we can declare it once and use it multiple times on different pages.&lt;/p&gt;
+&lt;p&gt;Today, I am going to show you &lt;strong&gt;How to define the global variable in VueJS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A global variable is a variable that is declared in the global scope in other words, a variable that is accessible from all other scopes.&lt;/p&gt;
+&lt;p&gt;Table of Content&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup the Vue (Optional)&lt;/li&gt;
+&lt;li&gt;Define globle verible&lt;/li&gt;
+&lt;li&gt;Access the global variable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While working on the Vue project, I need to define the global variable so I can access that variable in my project from anywhere. I am defining the variable once and using the variable multiple times in my project. To define the global variable,&lt;/p&gt;
+&lt;h2&gt;Step 1: Setup the Vue (Optional)&lt;/h2&gt;
+&lt;p&gt;First, we have to install the Vue project, I had installed the vueJS in my system. If you haven’t installed or have any problem with installation you can follow this article, it will show you step by step process of installation.
+&lt;strong&gt;&lt;a href=&quot;http://localhost:8000/blog/how-to-setup-vuejs-project/&quot;&gt;How to Install the VueJS project?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Step 2: Define globle verible&lt;/h2&gt;
+&lt;p&gt;I am defining the global variable using the &lt;code class=&quot;language-text&quot;&gt;Vue.prototype&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Vue &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;vue&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
 &lt;span class=&quot;token comment&quot;&gt;// declare global variable&lt;/span&gt;
 
 &lt;span class=&quot;token class-name&quot;&gt;Vue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;prototype&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;$website &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;sortoutcode.com&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;You Can define the global variable using the &lt;code class=&quot;language-text&quot;&gt;Vue.prototype.$verible_name&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;So when you want to use global variable in your components, you have to use &lt;code class=&quot;language-text&quot;&gt;this&lt;/code&gt; keyword and the variable name.&lt;/p&gt;
+&lt;p&gt;In the above example, we are using this syntex &lt;code class=&quot;language-text&quot;&gt;Vue.prototype&lt;/code&gt;, for variable &lt;code class=&quot;language-text&quot;&gt;$website&lt;/code&gt; is your variable name. ’$’ is the very important part, $ is a convention Vue uses for properties that are available to all instances. This avoids conflicts with any defined data, computed properties, or methods.&lt;/p&gt;
+&lt;h2&gt;Step 3: Access the global variable&lt;/h2&gt;
+&lt;p&gt;So when you want to use a global variable in your components, you have to use the &lt;code class=&quot;language-text&quot;&gt;this&lt;/code&gt; keyword and the variable name.For example ‘$verible_name’.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// for accessing the global variable&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;$website&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// sortoutcode.com&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -308,8 +605,8 @@ this new property is also reactive.&lt;/p&gt;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Rocket launch&quot;
-        title=&quot;Rocket launch&quot;
+        alt=&quot;Global Variable&quot;
+        title=&quot;Global Variable&quot;
         src=&quot;/static/94c5addd7727cfd45dbc0b1bfdb1c422/f058b/1.png&quot;
         srcset=&quot;/static/94c5addd7727cfd45dbc0b1bfdb1c422/c26ae/1.png 158w,
 /static/94c5addd7727cfd45dbc0b1bfdb1c422/6bdcf/1.png 315w,
@@ -329,12 +626,37 @@ this new property is also reactive.&lt;/p&gt;
 &lt;h3&gt;Birth&lt;/h3&gt;
 &lt;p&gt;1st May 2022 Started sortoutcode.com&lt;/p&gt;
 &lt;h3&gt;First Post&lt;/h3&gt;
-&lt;p&gt;12th May 2022 First Post released&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to setup 404 page in Vue js]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Sometimes users enter the wrong URL, instead of showing a blank page, we can show a 404 page.
-So…]]></description><link>https://sortoutcode.com/blog/how-to-setup-404-page-in-vue-js/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-setup-404-page-in-vue-js/</guid><pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;12th May 2022 First Post released&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to set up a 404 page in VueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Today, I am going to show you How to set up a 404 page in vueJS. Sometimes users enter the wrong…]]></description><link>https://sortoutcode.com/blog/how-to-setup-404-page-in-vue-js/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-setup-404-page-in-vue-js/</guid><pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
 &lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
+&lt;p&gt;Today, I am going to show you &lt;strong&gt;&lt;em&gt;How to set up a 404 page in vueJS.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Sometimes users enter the wrong URL, instead of showing a blank page, we can show a 404 page.
 So, let’s start and set up the 404 page.&lt;/p&gt;
-&lt;p&gt;First, let’s set up the 404 component&lt;/p&gt;
+&lt;p&gt;Table of Content&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup the Vue (Optional)&lt;/li&gt;
+&lt;li&gt;Install the Vue Router&lt;/li&gt;
+&lt;li&gt;Create the Components for 404 Page &lt;/li&gt;
+&lt;li&gt;Setup the Routes for 404 Page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article will guide you to &lt;strong&gt;how to define the Not Found page for not valid URL in vueJS&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Step 1: Setup the Vue (Optional)&lt;/h2&gt;
+&lt;p&gt;First, we have to install the Vue project, I had installed the vueJS in my system. If you haven’t installed or have any problem with installation you can follow this article, it will show you step by step process of installation.
+&lt;a href=&quot;/blog/how-to-setup-vuejs-project/&quot; target=&quot;_BLANK&quot;&gt;How to Install the VueJS project?&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Step 2: Install the Vue Router&lt;/h2&gt;
+&lt;p&gt;First Install the Vue router in the Vue project. For that, I am using this Command &lt;code class=&quot;language-text&quot;&gt;npm I vue-router&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;After the installation import the vue-router into my ‘router/index.js’ file&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Router &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;vue-router&apos;&lt;/span&gt;
+Vue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Router&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; router &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Router&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;routes&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;// ...here your componanets, path and name&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;mode&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;history&apos;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; router&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Step 3: Create the Components for 404 Page&lt;/h2&gt;
+&lt;p&gt;First, let’s set up the 404 component.My 404 Component name is &lt;code class=&quot;language-text&quot;&gt;NotFound.vue&lt;/code&gt;, Using the &lt;code class=&quot;language-text&quot;&gt;&amp;lt;center&gt;&amp;lt;/center&gt;&lt;/code&gt; tag in template we center the heading &lt;code class=&quot;language-text&quot;&gt;&amp;lt;h1&gt;404 not found&amp;lt;/h1&gt;&amp;lt;h2&gt;it seems you&apos;re in the wrong page&amp;lt;/h2&gt;&lt;/code&gt;.In export default set the name of Components that is &lt;code class=&quot;language-text&quot;&gt;NotFound&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;NotFound.vue&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
   &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;center&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
@@ -342,7 +664,13 @@ So, let’s start and set up the 404 page.&lt;/p&gt;
       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h2&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;it seems you&apos;re &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; the wrong page&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h2&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;center&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
   &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;NotFound&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Step 4: Setup the Routes for 404 Page&lt;/h2&gt;
 &lt;p&gt;Now we have to define the router,&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Vue &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;vue&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Router &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;vue-router&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -380,8 +708,8 @@ Vue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Rocket launch&quot;
-        title=&quot;Rocket launch&quot;
+        alt=&quot;Not Found&quot;
+        title=&quot;Not Found&quot;
         src=&quot;/static/d8ccd75f11d771a88d76253d0ecfa692/f058b/1.png&quot;
         srcset=&quot;/static/d8ccd75f11d771a88d76253d0ecfa692/c26ae/1.png 158w,
 /static/d8ccd75f11d771a88d76253d0ecfa692/6bdcf/1.png 315w,
@@ -395,5 +723,4 @@ Vue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;All the Best.&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;#vue #vue-router #404 #not-found&lt;/code&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;All the Best.&lt;/p&gt;</content:encoded></item></channel></rss>
