@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/javascript/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/how-to-search-an-array-of-objects-in-javascript/"},"frontmatter":{"date":"May 26, 2022","description":"Example of how to search an array of objects in javascript step by step - sortoutcode","tags":["Javascript"],"title":"How to search an array of objects in javascript?"},"timeToRead":3,"excerpt":"Hi Friends 👋, Welcome To SortoutCode! ❤️ Today, I am going to show you How do you search for an array of the object.  There are two methods…"}]}},"pageContext":{"tag":"Javascript"}},
+    "staticQueryHashes": ["2555585279","2714594843","3159585216"]}
