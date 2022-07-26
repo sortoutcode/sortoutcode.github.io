@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sortout Code]]></title><description><![CDATA[A Sortout Code build for developers and by developers.]]></description><link>https://sortoutcode.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 04 Jul 2022 16:58:17 GMT</lastBuildDate><item><title><![CDATA[About Mee]]></title><description><![CDATA[Hey there, what’s up? Sortout Code is a tech blog created with the sole purpose of explaining complex tech in a simple and concise way thus…]]></description><link>https://sortoutcode.com/about/</link><guid isPermaLink="false">https://sortoutcode.com/about/</guid><content:encoded>&lt;h1&gt;Hey there, what’s up?&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sortout Code]]></title><description><![CDATA[A Sortout Code build for developers and by developers.]]></description><link>https://sortoutcode.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 26 Jul 2022 14:04:45 GMT</lastBuildDate><item><title><![CDATA[About Mee]]></title><description><![CDATA[Hey there, what’s up? Sortout Code is a tech blog created with the sole purpose of explaining complex tech in a simple and concise way thus…]]></description><link>https://sortoutcode.com/about/</link><guid isPermaLink="false">https://sortoutcode.com/about/</guid><content:encoded>&lt;h1&gt;Hey there, what’s up?&lt;/h1&gt;
 &lt;p&gt;Sortout Code is a tech blog created with the sole purpose of explaining complex tech in a simple and concise way thus creating value for budding developers out there.&lt;/p&gt;
 &lt;p&gt;Here you will find blogs on the latest tech, tutorials on programming languages, explanations to data structure and algorithm concepts and questions, and much more… So stay tuned!!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Contact Me]]></title><description><![CDATA[Get in Touch. If you’ve got an inquiry for a job or project,drop me a line at hello@hello.com or fill the form right here.]]></description><link>https://sortoutcode.com/contact/</link><guid isPermaLink="false">https://sortoutcode.com/contact/</guid><content:encoded>&lt;h1&gt;Get in Touch.&lt;/h1&gt;
 &lt;p&gt;If you’ve got an inquiry for a job or project,drop me a line at hello@hello.com or fill the form right here.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Disclaimer]]></title><description><![CDATA[Welcome to Sortout Code! All the information on this website - https://sortoutcode.com/ - is published in good faith and for general…]]></description><link>https://sortoutcode.com/disclaimer/</link><guid isPermaLink="false">https://sortoutcode.com/disclaimer/</guid><content:encoded>&lt;p&gt;Welcome to Sortout Code!&lt;/p&gt;
@@ -134,7 +134,1129 @@
 &lt;li&gt;limit any of our or your liabilities in any way that is not permitted under applicable law; or&lt;/li&gt;
 &lt;li&gt;exclude any of our or your liabilities that may not be excluded under applicable law. The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to show data in a table dynamically in VueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ To show data in the table dynamically in vueJS, we are using the v-for directive to show data in…]]></description><link>https://sortoutcode.com/blog/how-to-show-data-in-table-dynamically-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-show-data-in-table-dynamically-in-vuejs/</guid><pubDate>Sat, 02 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to create a table using BootstrapVue in VueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ To create a table using BootstrapVue in VueJS.We are using the  to create the table 
+in…]]></description><link>https://sortoutcode.com/blog/how-to-create-table-in-vue-bootstrap-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-create-table-in-vue-bootstrap-in-vuejs/</guid><pubDate>Fri, 15 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
+&lt;p&gt;To create a table using BootstrapVue in VueJS.We are using the &lt;code class=&quot;language-text&quot;&gt;&amp;lt;b-table&gt;&lt;/code&gt; to create the table
+in BootstrapVue.&lt;/p&gt;
+&lt;p&gt;Today I am going to show you &lt;strong&gt;&lt;em&gt;How do you create a table using the BootstrapVue in VueJS.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Table of contains&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install the Bootstrap and BootstrapVue&lt;/li&gt;
+&lt;li&gt;Create FirstComponent.vue and import it into App.js&lt;/li&gt;
+&lt;li&gt;Define &lt;strong&gt;items&lt;/strong&gt; Arrays of objects property for Test  &lt;/li&gt;
+&lt;li&gt;Using the &lt;strong&gt;&lt;em&gt;b-table&lt;/em&gt;&lt;/strong&gt; tag create table&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s start today’s tutorial &lt;strong&gt;&lt;em&gt;How do I create a table using the BootstrapVue in VueJS?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Install the Bootstrap and BootstrapVue&lt;/h2&gt;
+&lt;p&gt;First, we have to install the Vue project, I had installed the vueJS in my system. If you haven’t installed or have any problem with installation you can follow this article, it will show you step by step process of installation. In that article, I had also show you how to install BootstrapVue in your vue.js project step by step.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/blog/how-to-install-vue-bootstrap-in-vuejs/&quot; target=&quot;_BLANK&quot;&gt;How to install or configure vue-bootstrap in VueJS?&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Define &lt;strong&gt;items&lt;/strong&gt; Arrays of objects property for Test&lt;/h2&gt;
+&lt;p&gt;Let’s define the &lt;strong&gt;items&lt;/strong&gt; in the data of the &lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt; component for testing purposes.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FirstComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;SortoutCode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_url&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://sortoutcode.com/&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Aguidehub&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_url&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://aguidehub.com/&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Infinitbility&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_url&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://infinitbility.com/&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Test&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_url&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://test.com/&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Data is used to define properties in a particular component. In a single-file component, &lt;code class=&quot;language-text&quot;&gt;data()&lt;/code&gt; is a function that returns a set of properties that have been described in the function.&lt;/p&gt;
+&lt;p&gt;we define the &lt;strong&gt;items&lt;/strong&gt; you can see that.&lt;/p&gt;
+&lt;h2&gt;Create FirstComponent.vue and import it into App.js&lt;/h2&gt;
+&lt;p&gt;Create the new component into &lt;code class=&quot;language-text&quot;&gt;src/components/&lt;/code&gt; components folder.the component name is &lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt; and import into &lt;code class=&quot;language-text&quot;&gt;App.js&lt;/code&gt; file:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;App.js&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;app&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;FirstComponent &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; FirstComponent &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;./components/FirstComponent.vue&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;App&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;components&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    FirstComponent&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+#app &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;family&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; Avenir&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Helvetica&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Arial&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; sans&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;serif&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;webkit&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;smoothing&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; antialiased&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;moz&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;osx&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;smoothing&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; grayscale&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  text&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;align&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; center&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; #2c3e50&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  margin&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;top&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 60px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Using the &lt;strong&gt;&lt;em&gt;b-table&lt;/em&gt;&lt;/strong&gt; tag create table&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;b-table&gt;&lt;/code&gt; automatically samples the first row of the key of the array into the table heading. and All the first row of the array of keys
+Field names are automatically &lt;strong&gt;humanized&lt;/strong&gt; by converting &lt;strong&gt;kebab-case&lt;/strong&gt;, &lt;strong&gt;snake_case&lt;/strong&gt;, and &lt;strong&gt;camelCase&lt;/strong&gt; to individual words and capitalizing each word. you can see some of the examples listed below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;first_name&lt;/strong&gt; becomes &lt;strong&gt;First Name&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;last-name&lt;/strong&gt; becomes &lt;strong&gt;Last Name&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;age&lt;/strong&gt; becomes &lt;strong&gt;Age&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;YEAR&lt;/strong&gt; remains &lt;strong&gt;YEAR&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;isActive&lt;/strong&gt; becomes &lt;strong&gt;Is Active&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can see the final codes for &lt;strong&gt;b-table&lt;/strong&gt;,&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;hello&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;b&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;table striped hover &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;items&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;items&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;b&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;table&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;FirstComponent&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token literal-property property&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;SortoutCode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_url&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://sortoutcode.com/&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Aguidehub&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_url&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://aguidehub.com/&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Infinitbility&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_url&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://infinitbility.com/&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Test&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;site_url&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://test.com/&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt; Add &lt;span class=&quot;token string&quot;&gt;&quot;scoped&quot;&lt;/span&gt; attribute to limit &lt;span class=&quot;token constant&quot;&gt;CSS&lt;/span&gt; to &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt; component only &lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;style scoped&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+h3 &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 40px &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+ul &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  list&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;type&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; none&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+li &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; inline&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;block&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; 10px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+a &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; #42b983&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For now, let’s check the output.&lt;/p&gt;
+&lt;h2&gt;Output&lt;/h2&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/sortoutcode/sortoutcode-images/main/vue-bootstrap-table.gif&quot; alt=&quot;vue-bootstrap-table&quot; width=&quot;100%&quot;&gt;
+&lt;p&gt;All the best 👍.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to install or configure vue-bootstrap in VueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ To install the vue-bootstrap in the VueJS project, we are using the command and installing the vue…]]></description><link>https://sortoutcode.com/blog/how-to-install-vue-bootstrap-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-install-vue-bootstrap-in-vuejs/</guid><pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
+&lt;p&gt;To install the &lt;strong&gt;vue-bootstrap&lt;/strong&gt; in the VueJS project, we are using the command and installing the vue.js project after that we are installing the &lt;strong&gt;vue-bootstrap&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;Today I am going to show you &lt;strong&gt;&lt;em&gt;How do you install or configure vue-bootstrap in VueJS.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Table of contains&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install the node&lt;/li&gt;
+&lt;li&gt;Install Vue globally&lt;/li&gt;
+&lt;li&gt;Create a Vue project&lt;/li&gt;
+&lt;li&gt;Run the Vue project&lt;/li&gt;
+&lt;li&gt;Install the Bootstrap and BootstrapVue&lt;/li&gt;
+&lt;li&gt;Register the BootstrapVue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s start today’s tutorial &lt;strong&gt;&lt;em&gt;How do I install or configure vue-bootstrap in VueJS?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Step 1: Install the node&lt;/h2&gt;
+&lt;p&gt;For installing the node.js, go to node.js official website and download the current version of node.&lt;/p&gt;
+&lt;p&gt;Node.js is, allows developers to write JavaScript code that runs directly in a computer process itself instead of in a browser.&lt;/p&gt;
+&lt;p&gt;You can download the node.js application from the official website &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node. js&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/06334dc93454001724fa193c5f8507de/29114/node-install.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.32911392405063%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACSklEQVQoz23MaU8TYRSG4RGFbsy0s3Zxus3S6XSb0o3VBVEKRktpLbQCISYuxGiMMX72p9+GagkSP1x5857zPEcot8d4rRFe6xi7McBZCAbzvxsMeTq4ZG/wAav2Gic4mu9uZ/zOmErvhP7RFUKuMmAhXz2ac5pjrMYxTjCav5WNCbXN6c3M/bvPVRedASn3kOHsB0JUSvEPMUVMSqMahRuKVkBUMohqGknLIMppomLyJr8aT/MgpNDpPUEIxzTuMooFrEYFq3atit2okq94ZP0SOb9Evl5CyZiEo+o8HxV17j0QaXW3ESKrOnfF4inCioZimeSCMub8iE+2XiKezxCVDWJS8iYfFQ2WliXa3Z3/HJR0IssGobU4+hcD86tJqB8jNpHIfcuhftRYKSSIhA0i4uJgkqXlOO3uI4RQVOa2lUiClZCMmNTJ1As8rBdRrBSSrWJUHiJ7BuGETCii/O0oRGIqwv0Yrc4WgqRaLIiajZ7xSOg2olxE1T1UvYysO3MJzUbWHMREEVEp/umoFnHNJrRqsr69j2A1T7GbU6zglFJ3xvqL9wQ77yj3zimvX+Cvn1PuXeC0Zlxn3fZbmruf8HoX847bnuF1zshW33Aw+o7gro1wmiPsYIjfPeHxwSe2+h/Yen5Je+uU+uaUxuaUcmeCFQxxW2PWdt9R3ZhiB8d47THV3gl2Y0h/+Bmhs7HNweEr9vsveba3z+hoguf77I7OGF39Yvv8J53DGWnTJFuwMQsWmWwe23FwPZ+iU8JyPbxKjXK1xm+p2EBvmpQbvAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;vue, node&quot;
+        title=&quot;vue, node&quot;
+        src=&quot;/static/06334dc93454001724fa193c5f8507de/f058b/node-install.png&quot;
+        srcset=&quot;/static/06334dc93454001724fa193c5f8507de/c26ae/node-install.png 158w,
+/static/06334dc93454001724fa193c5f8507de/6bdcf/node-install.png 315w,
+/static/06334dc93454001724fa193c5f8507de/f058b/node-install.png 630w,
+/static/06334dc93454001724fa193c5f8507de/40601/node-install.png 945w,
+/static/06334dc93454001724fa193c5f8507de/78612/node-install.png 1260w,
+/static/06334dc93454001724fa193c5f8507de/29114/node-install.png 1920w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;After the download is complete, install the node application in your system.&lt;/p&gt;
+&lt;h2&gt;Step 2: Install Vue.js globally&lt;/h2&gt;
+&lt;p&gt;Using this command you can install the Vue.js framework globally in your system&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;npm install &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;g @vue&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can install vue using ‘npm’.&lt;/p&gt;
+&lt;p&gt;In this article, I am installing the project using the &lt;code class=&quot;language-text&quot;&gt;npm install -g @vue/cli&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You can verify that it is properly installed by simply running &lt;code class=&quot;language-text&quot;&gt;vue&lt;/code&gt;, which should present you with a help message listing all available commands.&lt;/p&gt;
+&lt;p&gt;For example, you can run this &lt;code class=&quot;language-text&quot;&gt;vue --version&lt;/code&gt; command to know your &lt;strong&gt;vue/cli&lt;/strong&gt;  version. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2f7b9c78cda1b91fa4eb347da47d9ef0/97655/vue-version.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 14.556962025316455%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABJ0AAASdAHeZh94AAAAXklEQVQI15WOOw7AIAzFWPkIQYEGlAzJ/Q/5KpC6t4M3y7IjIsw5wcwgutHahTEG1lrIOSOEgBjjZ5yqQoShZidcSkGt9UR3cEsppc84EcHGzNB7g/f+RN6zLf05fACLlEaCeqLLfQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;vue, vue/cli&quot;
+        title=&quot;vue, vue/cli&quot;
+        src=&quot;/static/2f7b9c78cda1b91fa4eb347da47d9ef0/f058b/vue-version.png&quot;
+        srcset=&quot;/static/2f7b9c78cda1b91fa4eb347da47d9ef0/c26ae/vue-version.png 158w,
+/static/2f7b9c78cda1b91fa4eb347da47d9ef0/6bdcf/vue-version.png 315w,
+/static/2f7b9c78cda1b91fa4eb347da47d9ef0/f058b/vue-version.png 630w,
+/static/2f7b9c78cda1b91fa4eb347da47d9ef0/97655/vue-version.png 819w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Step 3. Create Vue js project&lt;/h2&gt;
+&lt;p&gt;To create a new project run this command:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;vue create sortoutcode&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;sortoutcode&lt;/em&gt;&lt;/strong&gt; is our project name.&lt;/p&gt;
+&lt;p&gt;It will give you the option to select, which version you want to install &lt;strong&gt;&lt;em&gt;Vue 2 or Vue 3&lt;/em&gt;&lt;/strong&gt; or perhaps choose the &lt;strong&gt;&lt;em&gt;Manually select feature&lt;/em&gt;&lt;/strong&gt; option, in this article I’m using &lt;strong&gt;&lt;em&gt;Vue 2&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/246dc0db7ff33d3be29340dca26d01c6/1bfbd/choose-vue-version.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.56962025316456%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABJ0AAASdAHeZh94AAAAfklEQVQoz9WQOQ7DMAwEVYu6actCHDgX8v8nThC4kIFUVpdiGxIYDtdMrVHbQlFPSpGQA9ZbrB2L0ZqpS6G1Qp1ntE5IFJxzQzHb8839duX1WFkvX2gkp30pIqdjiiqqBVUlRk/wQggdeNrw+P9+pZuNQM3vsAOGDEfL/1/gB/tqzh+R+h60AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;vue, vue/cli&quot;
+        title=&quot;vue, vue/cli&quot;
+        src=&quot;/static/246dc0db7ff33d3be29340dca26d01c6/f058b/choose-vue-version.png&quot;
+        srcset=&quot;/static/246dc0db7ff33d3be29340dca26d01c6/c26ae/choose-vue-version.png 158w,
+/static/246dc0db7ff33d3be29340dca26d01c6/6bdcf/choose-vue-version.png 315w,
+/static/246dc0db7ff33d3be29340dca26d01c6/f058b/choose-vue-version.png 630w,
+/static/246dc0db7ff33d3be29340dca26d01c6/40601/choose-vue-version.png 945w,
+/static/246dc0db7ff33d3be29340dca26d01c6/78612/choose-vue-version.png 1260w,
+/static/246dc0db7ff33d3be29340dca26d01c6/1bfbd/choose-vue-version.png 1743w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Step 4: Run the Vue project&lt;/h2&gt;
+&lt;p&gt;Open the Command prompt Go to your project directory and run this command &lt;code class=&quot;language-text&quot;&gt;npm run serve&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;After running this command &lt;strong&gt;npm run serve&lt;/strong&gt; server is started. Now go to Browser, and run the localhost &lt;strong&gt;&lt;a href=&quot;http://localhost:8080/&quot;&gt;http://localhost:8080/&lt;/a&gt;&lt;/strong&gt; to open your project running.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dae11185bfb88f1ffc6ba67e9fc7ea74/29114/vue-project-run.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.32911392405063%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABcElEQVQoz42Sy07CQBiF+0SCGmiJ7I2uSGQhLLwv3PgEbtz4APoQbvBhYNFCoAi0tRfAlgIC7Ux7TKfBcBWbfPlPT05O/swMJ0lVRIiihHK5skwlnvVqjbHoLSJJEmS5yTo47Pi00MVz6Y2hBINdcXCUBqCUboZQFrp9f8V16YXpyNuUDYK4Z+OGYRjGE/FUZzaU2deSN8+sbbitbOZ5aLZVdDQdltmDaXSZbquf8Dx/a+nWwmj96XQGdziCPXTRGzmwx0PmEUL+X7ga9H2Crm2j5zhMrx1LGP7CCqPD3AahFD4l6Do2+q4DnxDmreaisrn+89lE+wQABpNvDCZjRHdOEf79bCzLgmmaDMMw0Le6sCKtK2i0ZbSUFkS5BlGuQ1ZaaHQ+oGgqDENneU3ToGoqdD3+545PT1AsFnFeKCCfz+Pm4gqCkELu8g65hyec3T8iJfBIHCSR2I/ZSyaQ5g/BZ3ik+DTSAo+jbBZ8RsAPBMglIKLUz8gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;vue, vue/cli&quot;
+        title=&quot;vue, vue/cli&quot;
+        src=&quot;/static/dae11185bfb88f1ffc6ba67e9fc7ea74/f058b/vue-project-run.png&quot;
+        srcset=&quot;/static/dae11185bfb88f1ffc6ba67e9fc7ea74/c26ae/vue-project-run.png 158w,
+/static/dae11185bfb88f1ffc6ba67e9fc7ea74/6bdcf/vue-project-run.png 315w,
+/static/dae11185bfb88f1ffc6ba67e9fc7ea74/f058b/vue-project-run.png 630w,
+/static/dae11185bfb88f1ffc6ba67e9fc7ea74/40601/vue-project-run.png 945w,
+/static/dae11185bfb88f1ffc6ba67e9fc7ea74/78612/vue-project-run.png 1260w,
+/static/dae11185bfb88f1ffc6ba67e9fc7ea74/29114/vue-project-run.png 1920w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Step 5: Install the Bootstrap and BootstrapVue&lt;/h2&gt;
+&lt;p&gt;We are going to install Bootstrap v4 and BootstrapVue in our VueJS project. For that, we can use the &lt;strong&gt;npm&lt;/strong&gt; or &lt;strong&gt;yarn&lt;/strong&gt; to install the Bootstrap v4 and BootstrapVue.In this tutorial, we are using the &lt;strong&gt;npm&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// With npm use this command&lt;/span&gt;
+npm install vue bootstrap bootstrap&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;vue
+
+
+&lt;span class=&quot;token comment&quot;&gt;// With yarn use this command&lt;/span&gt;
+yarn add vue bootstrap bootstrap&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;vue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;After the installation is complete.we need to initialize or register the BootstrapVue&lt;/p&gt;
+&lt;h2&gt;Step:6 Register the BootstrapVue&lt;/h2&gt;
+&lt;p&gt;After the installation is completed we are going to initialize or register the BootstrapVue in your app entry point which would be the &lt;code class=&quot;language-text&quot;&gt;app.js&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;main.js&lt;/code&gt;. For initialization, we are using the &lt;code class=&quot;language-text&quot;&gt;main.js&lt;/code&gt; entry point.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;main.js&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Vue &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;vue&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; App &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./App.vue&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; BootstrapVue&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; IconsPlugin &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;bootstrap-vue&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;bootstrap/dist/css/bootstrap.css&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;bootstrap-vue/dist/bootstrap-vue.css&apos;&lt;/span&gt;
+
+Vue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;BootstrapVue&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Vue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;IconsPlugin&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+Vue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;config&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;productionTip &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Vue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;App&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;$mount&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;#app&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To, Check if BootstrapVue is installed or not perfectly. we are printing some text in &lt;code class=&quot;language-text&quot;&gt;App.js&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;App.js&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;app&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Hi Friends Welcome To SortoutCode&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;App&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+#app &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;family&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; Avenir&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Helvetica&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Arial&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; sans&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;serif&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;webkit&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;smoothing&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; antialiased&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;moz&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;osx&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;smoothing&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; grayscale&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  text&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;align&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; center&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; #2c3e50&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  margin&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;top&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 60px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;As you can see in the above code, I Removed the unwanted text, link, heading, and image from the &lt;code class=&quot;language-text&quot;&gt;App.js&lt;/code&gt;. Press Ctrl + U to view the web page source.
+You can see that the CSS style &lt;strong&gt;BootstrapVue Custom CSS (&lt;a href=&quot;https://bootstrap-vue.org&quot;&gt;https://bootstrap-vue.org&lt;/a&gt;)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For now, let’s check the output.&lt;/p&gt;
+&lt;h2&gt;Output&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/82fff1f151a42e49124a87f6c99c9e9f/8963a/install-the-vuebootstrap.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.67088607594937%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABJ0AAASdAHeZh94AAABeElEQVQoz42QzW7TQBRG/Q5UKUgltuPx79jjGae4TdKmiCwQ4oWStmzK81I7C3BcJTnILkQFZdErHX0zm6PvXuvT4jPzmwXlxZQ002TKHFC5IYpTPBHiuB7uSOCJAM8LnlOECD/CjEs+lBMSmWNVVc16vaaqKuq6pq7qPh9/PNI0DcvVHWe2wB75DB1BZi5RxYzUTAgThZ8YMlOi8gJtzrEAfv5qnmk2bNr28O/m4eE7I2mYLL5yM51xffWR8fwL5uIaZc6RqSJJUsIoYTq7wtput7Rt24u6bJ+e+nfTbHrh/f03hm7EuJxzqRVKSkQQE4QvSfrVi+JPw2Oz2+36XC5veXPylihWCD/G6xDh4YZ/ORu65Npg7fd7jtE172a1uuNk8I5U5/hZjutLbMfHdjwcVxwY2iO0Lo43fClcrm4ZDN6TZYZYRoQyJpAJ7uhf6auFXcNu5UxrolwTpWMCP+sl/wvz1zY8PbXJUo1MBKFMiJQ63tAU/AYtQa+052ARSgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Install BootstrapVue&quot;
+        title=&quot;Install BootstrapVue&quot;
+        src=&quot;/static/82fff1f151a42e49124a87f6c99c9e9f/f058b/install-the-vuebootstrap.png&quot;
+        srcset=&quot;/static/82fff1f151a42e49124a87f6c99c9e9f/c26ae/install-the-vuebootstrap.png 158w,
+/static/82fff1f151a42e49124a87f6c99c9e9f/6bdcf/install-the-vuebootstrap.png 315w,
+/static/82fff1f151a42e49124a87f6c99c9e9f/f058b/install-the-vuebootstrap.png 630w,
+/static/82fff1f151a42e49124a87f6c99c9e9f/40601/install-the-vuebootstrap.png 945w,
+/static/82fff1f151a42e49124a87f6c99c9e9f/78612/install-the-vuebootstrap.png 1260w,
+/static/82fff1f151a42e49124a87f6c99c9e9f/8963a/install-the-vuebootstrap.png 1918w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;All the best 👍.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to remove hash from URL in VueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Today I am going to show you How do you remove the hash(#) from the URL in the vue-router package…]]></description><link>https://sortoutcode.com/blog/how-to-remove-hash-from-url-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-remove-hash-from-url-in-vuejs/</guid><pubDate>Wed, 13 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
+&lt;p&gt;Today I am going to show you &lt;strong&gt;&lt;em&gt;How do you remove the hash(#) from the URL in the vue-router package in VueJS.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Table of contains&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup the Vue (Optional)&lt;/li&gt;
+&lt;li&gt;Setup the vue-router &lt;/li&gt;
+&lt;li&gt;Remove hash(#) from URL from vue 2&lt;/li&gt;
+&lt;li&gt;Remove hash(#) from URL from vue 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s start today’s tutorial &lt;strong&gt;&lt;em&gt;How do I remove the hash(#) from the URL in the vue-router package in VueJS?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Setup the Vue (Optional)&lt;/h2&gt;
+&lt;p&gt;First, we have to install the Vue project, I had installed the vueJS in my system. If you haven’t installed or have any problem with installation you can follow this article, it will show you step by step process of installation.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/blog/how-to-setup-vuejs-project/&quot; target=&quot;_BLANK&quot;&gt;How to Install the VueJS project?
+&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Setup the vue-router&lt;/h2&gt;
+&lt;p&gt;After the installation, of the vue project, Configure the &lt;strong&gt;vue-router&lt;/strong&gt; module in your project. If you haven’t installed or have any problem with installation you can follow this article, it will show you step by step process of installation. It will also guide you, on how to show the router views using the &lt;strong&gt;router-view&lt;/strong&gt; and how to use &lt;strong&gt;router-link&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/blog/how-to-configure-or-install-vue-router-module-in-vuejs/&quot; target=&quot;_BLANK&quot;&gt;How to configure or Install vue-router module in VueJS?&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Remove hash(#) from URL from vue 2&lt;/h2&gt;
+&lt;p&gt;As you can see, The hash is in the URL &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;http://localhost:8080/#/&quot;&gt;http://localhost:8080/#/&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; of the page. The hash is shown in every page link,&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/16c970cfc9272851f3f4c1526fd26bd7/29114/hash-in-url.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 34.177215189873415%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABJ0AAASdAHeZh94AAAAwUlEQVQoz62O244BQRCG562MsEzshVOQeHZX4motwyCC6Wmmu+uTXofNrpG4UMmXqtThrz/oDYa0O32arS7Vj4hSWCEsVwnLlZep1Ru0Oz2i6JMgyzI8yqPUA2n6l6IdrTW5MT854M0RiAj/cU4A4XRyjMeGr+mR0cgwmRjy3FF0c6PQoR9cMuz3glKO7VbY7YTr6L7z4PCZmLUOa62vEHHABd/7fSivCx5SxXyRkKw2xMsV8XLNLE74ni/Q+vhU8Axv0/pwbawC6gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Hash in URL&quot;
+        title=&quot;Hash in URL&quot;
+        src=&quot;/static/16c970cfc9272851f3f4c1526fd26bd7/f058b/hash-in-url.png&quot;
+        srcset=&quot;/static/16c970cfc9272851f3f4c1526fd26bd7/c26ae/hash-in-url.png 158w,
+/static/16c970cfc9272851f3f4c1526fd26bd7/6bdcf/hash-in-url.png 315w,
+/static/16c970cfc9272851f3f4c1526fd26bd7/f058b/hash-in-url.png 630w,
+/static/16c970cfc9272851f3f4c1526fd26bd7/40601/hash-in-url.png 945w,
+/static/16c970cfc9272851f3f4c1526fd26bd7/78612/hash-in-url.png 1260w,
+/static/16c970cfc9272851f3f4c1526fd26bd7/29114/hash-in-url.png 1920w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;To remove the &lt;strong&gt;Hash(#)&lt;/strong&gt; from the URL, In vue 2 we have to use the &lt;code class=&quot;language-text&quot;&gt;mode: &apos;history&apos;&lt;/code&gt; in the router as you can see in the example of VueJS 2:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Vue &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;vue&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Router &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;vue-router&apos;&lt;/span&gt;
+
+
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; ComponentName &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../components/ComponentName.vue&apos;&lt;/span&gt;
+
+Vue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Router&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; router &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Router&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;routes&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;path&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;component&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ComponentName&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Your Component Name&apos;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;mode&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;history&apos;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; router&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Remove hash(#) from URL from vue 3&lt;/h2&gt;
+&lt;p&gt;We have created the two components that are &lt;strong&gt;FirstComponent.vue &amp;#x26; SecondComponent.vue&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    This is First Component&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FirstComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;SecondComponent.vue&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    This is Second Component&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;SecondComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In vue 3 we have import the &lt;code class=&quot;language-text&quot;&gt;createWebHistory&lt;/code&gt; then use the &lt;code class=&quot;language-text&quot;&gt;history: createWebHistory()&lt;/code&gt; code in your vue router module as you can see in the example of VueJS 3:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; createWebHistory&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; createRouter &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;vue-router&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; FirstComponent &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;@/components/FirstComponent.vue&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; SecondComponent &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;@/components/SecondComponent.vue&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; routes &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;First&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;component&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; FirstComponent&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/second&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Second&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;component&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; SecondComponent&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; router &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createRouter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;history&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createWebHistory&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  routes&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; router&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For now, let’s check the output for Vue 3.&lt;/p&gt;
+&lt;h2&gt;Output&lt;/h2&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/sortoutcode/sortoutcode-images/main/removed-hash.gif&quot; alt=&quot;Remove hash from URL&quot; width=&quot;100%&quot;&gt;
+&lt;p&gt;All the best 👍.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to configure or Install the vue-router module in VueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ Today I am going to show you How do you configure or Install the vue-router module in VueJS. Table…]]></description><link>https://sortoutcode.com/blog/how-to-configure-or-install-vue-router-module-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-configure-or-install-vue-router-module-in-vuejs/</guid><pubDate>Tue, 12 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
+&lt;p&gt;Today I am going to show you &lt;strong&gt;&lt;em&gt;How do you configure or Install the vue-router module in VueJS.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Table of contains&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup the Vue (Optional)&lt;/li&gt;
+&lt;li&gt;Create the two components &lt;/li&gt;
+&lt;li&gt;configure the vue-router&lt;/li&gt;
+&lt;li&gt;Show the view in App.js &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s start today’s tutorial &lt;strong&gt;&lt;em&gt;How do I configure or Install the vue-router module in VueJS?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Setup the Vue (Optional)&lt;/h2&gt;
+&lt;p&gt;First, we have to install the Vue project, I had installed the vueJS in my system. If you haven’t installed or have any problem with installation you can follow this article, it will show you step by step process of installation.
+&lt;a href=&quot;/blog/how-to-setup-vuejs-project/&quot; target=&quot;_BLANK&quot;&gt;How to Install the VueJS project?&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Create the two components&lt;/h2&gt;
+&lt;p&gt;For creating the components go to the project directory and then follow the path &lt;code class=&quot;language-text&quot;&gt;src/components/&lt;/code&gt; inside the components directory create components with &lt;strong&gt;.vue&lt;/strong&gt; extension for example &lt;strong&gt;FirstComponent.vue &amp;#x26; SecondComponent.vue&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For the path of files, you can follow this snippet.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ce0140d21dc438156fcf1b01403d64b1/9be90/components-path.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 146.8354430379747%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAdCAYAAACqhkzFAAAACXBIWXMAABJ0AAASdAHeZh94AAAC50lEQVRIx61W2XLaMBT1rxQbL5It29q8CQNmTWCYzGTSTl/bL+j/P5yO1EBDWwiT8nBG9pV0dM9dZHt6eUD9+BmH3QNWqzUOhwNWqxVeXl7c83K5xNPTE9brNTabDfb7vXve7XZ4fn52NrvOvrdtC2+726MfliiLAmVZQisNzgXSNHOgNEWWZaf3t8gy9jpmyPPcjd6379/x9ctnxHGCLGUQQoKxHEEwxngcOvh+cBWjUXBa7w3DACmlO8l0xkmczeZYr9Z43O2x2WwhhHAbjwdcgyekxGw2AyEUJCHodIFG5W4sGXWnh+PwzOM/YeeiKAJNEnjWOyVKJEmCKIqR5+wUT+uZtR/JLpG+tXt1XaNbPiIh1Bl01aDrjItpGMYIw/e9O44WXlVVyL/8QJxxJ61WHJQkLmbHRaeNwTuSyavkplJIEuImbfrbpgMlFP4ouCjtomRjDObzuZNoDZQxcKPBag4q2S/Jtiz8y3G0tjCKECUxPBt4rTUIIW4T71LQpgBpBWjLEUsGonLEjF73MIwQWslmMsH2YeuyaSWKlqKpC/Qth2k56rpAaslsgY+OcQ3eYIyRH4AkMbKUvJaNUuBcoSwqTFYN+vUMw8MCi4cFhu0C7byHnk4gmxZlYVvzHGWpIVUNXbfwOOewYFmBrMgxWSj0fYPGVGBCIBUcTHDkUiDLS6TU9m9+BkoZeMldxzlCKQXiKEEU+1CaYlJXkGWOYOTDP+KT7yRf6ucoDB0coU2MbTsbWCE4OtNDKoXRyL+pf88K+0ho6zBjEbquxWQyhe0gO3cs8Jvr8CQ5piiKAMbUmM4Gd/PMhwWU0ojC6Gr7nd02vz2kyFIfTSPR93N3+2pdQUqFOIo/QkhAMgLTGwzDAgvrndYuju9J/ichsddUwlAIhUprKKndzR3emJS/CV3r+fB933llcUtCrhPekMW7EH5c8n0IxZ0Jy9J1xN0IO2Pcr8Xbr9t/EdqenU57V9j3IPwJ5g5rmyPqgj8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Components Path&quot;
+        title=&quot;Components Path&quot;
+        src=&quot;/static/ce0140d21dc438156fcf1b01403d64b1/f058b/components-path.png&quot;
+        srcset=&quot;/static/ce0140d21dc438156fcf1b01403d64b1/c26ae/components-path.png 158w,
+/static/ce0140d21dc438156fcf1b01403d64b1/6bdcf/components-path.png 315w,
+/static/ce0140d21dc438156fcf1b01403d64b1/f058b/components-path.png 630w,
+/static/ce0140d21dc438156fcf1b01403d64b1/9be90/components-path.png 636w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Created First Components name was &lt;strong&gt;FirstComponent.vue&lt;/strong&gt;, &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    This is First Component&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FirstComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The other Created component name was &lt;strong&gt;SecondComponent.vue&lt;/strong&gt;, &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;SecondComponent.vue&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    This is Second Component&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;SecondComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;configure the vue-router&lt;/h2&gt;
+&lt;p&gt;In the main.js file first, we need to import a vue-router module from a node_modules folder because we have installed all of our dependencies in this project. Copy the following code into our main.js file.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;src/main.js&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; createApp &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;vue&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; App &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./App.vue&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; router &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./router&apos;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// &amp;lt;---&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;createApp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;App&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;router&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;mount&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;#app&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Create the &lt;code class=&quot;language-text&quot;&gt;index.js&lt;/code&gt; file inside the &lt;code class=&quot;language-text&quot;&gt;src/router/index.js&lt;/code&gt; and create routes and import your components &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; createWebHashHistory&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; createRouter &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;vue-router&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; FirstComponent &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;@/components/FirstComponent.vue&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; SecondComponent &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;@/components/SecondComponent.vue&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; routes &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;First&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;component&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; FirstComponent&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/second&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Second&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;component&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; SecondComponent&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; router &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createRouter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;history&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createWebHashHistory&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  routes&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; router&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Notice that we create our routes in an array, where we specify for each route a few important items:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Path - the URL path where this route can be found.&lt;/li&gt;
+&lt;li&gt;Name - An optional name to use when we link to this route.&lt;/li&gt;
+&lt;li&gt;Component - Which component to load when this route is called.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notice we export this at the bottom because we’ll need to import it in our main.js file.&lt;/p&gt;
+&lt;h2&gt;Show the view in App.js&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;app&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;nav&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;router&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;link to&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;First&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;router&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;link&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;router&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;link to&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/second&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Second&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;router&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;link&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;margin-top:50px;&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;router&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;view &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;App&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+#app &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;family&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; Avenir&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Helvetica&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Arial&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; sans&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;serif&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;webkit&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;smoothing&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; antialiased&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;moz&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;osx&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;smoothing&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; grayscale&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  text&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;align&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; center&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; #2c3e50&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  margin&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;top&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 60px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For now, let’s check the output.&lt;/p&gt;
+&lt;h2&gt;Output&lt;/h2&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/sortoutcode/sortoutcode-images/main/vue-router.gif&quot; width=&quot;100%&quot;&gt;
+&lt;p&gt;All the best 👍.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to convert string to HTML in VueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ To convert string to HTML in vueJS, we are using the v-html to convert string to HTML, we are…]]></description><link>https://sortoutcode.com/blog/how-to-convert-string-to-html-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-convert-string-to-html-in-vuejs/</guid><pubDate>Thu, 07 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
+&lt;p&gt;To convert string to HTML in vueJS, we are using the &lt;strong&gt;v-html&lt;/strong&gt; to convert string to HTML, we are passing the string with some string HTML tag And returning the output with HTML.&lt;/p&gt;
+&lt;p&gt;Today I am going to show you &lt;strong&gt;&lt;em&gt;How do you convert string to HTML in VueJS.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Table of contains&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Define &lt;strong&gt;msg&lt;/strong&gt; property for Test&lt;/li&gt;
+&lt;li&gt;Define computed property &lt;strong&gt;libText&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s start today’s tutorial &lt;strong&gt;&lt;em&gt;How do I convert string to HTML in VueJS?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Define &lt;strong&gt;msg&lt;/strong&gt; property for Test&lt;/h2&gt;
+&lt;p&gt;Let’s define the &lt;strong&gt;msg&lt;/strong&gt; in the data of the &lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt; component for testing purposes.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FirstComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hi Friends Welcome To SortoutCode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Data is used to define properties in a particular component. In a single-file component, &lt;code class=&quot;language-text&quot;&gt;data()&lt;/code&gt; is a function that returns a set of properties that have been defined in the function.&lt;/p&gt;
+&lt;p&gt;we define the three properties that are &lt;strong&gt;msg&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Define computed property &lt;strong&gt;libText&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In vueJS, computed properties enable you to create the property that can be used to modify, manipulate or display data in components in a readable and efficient manner.&lt;/p&gt;
+&lt;p&gt;In this case, we are using for to concatenate the html tag and string.&lt;/p&gt;
+&lt;p&gt;you can see the code:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div v&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;html&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;libText&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;libText&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FirstComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hi Friends Welcome To SortoutCode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;    
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;computed&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;           
+        &lt;span class=&quot;token function-variable function&quot;&gt;libText&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token comment&quot;&gt;// return directly html&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; str&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;p&gt;&amp;lt;b&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;msg &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;b&gt;&amp;lt;/p&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; str&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;we are using the &lt;strong&gt;v-html&lt;/strong&gt; to show the string as you see them in the code. &lt;/p&gt;
+&lt;p&gt;For now, let’s check the output.&lt;/p&gt;
+&lt;h2&gt;Output&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8512b5804bf3ff3167394047c07ff58a/7ebf9/string-to-html.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.10126582278481%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAAAtklEQVQoz82RWwuCQBCF9zdl1EOGQkVC//8hMjfXpGfdW+DlhANLZggJPjTwMbNnOMOBZcfohP0hgr8NsfBW8JbryQThjm5s/ABMSomOsiyJoihG+N45jzEW1j6hlALDzMXatkXTNPTQ2oCLHEmaIeYC55hT5+KOLH+Qfr0J0i5Jiqqq0Pn7UMJu6Kqua2hjobQhpNJQWkMbA2Pfuts5n+uU0A19cUoNfR8Jh/F/YTThbJ/y9wdfweLlv8kIcjcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;String to Html&quot;
+        title=&quot;String to Html&quot;
+        src=&quot;/static/8512b5804bf3ff3167394047c07ff58a/f058b/string-to-html.png&quot;
+        srcset=&quot;/static/8512b5804bf3ff3167394047c07ff58a/c26ae/string-to-html.png 158w,
+/static/8512b5804bf3ff3167394047c07ff58a/6bdcf/string-to-html.png 315w,
+/static/8512b5804bf3ff3167394047c07ff58a/f058b/string-to-html.png 630w,
+/static/8512b5804bf3ff3167394047c07ff58a/40601/string-to-html.png 945w,
+/static/8512b5804bf3ff3167394047c07ff58a/78612/string-to-html.png 1260w,
+/static/8512b5804bf3ff3167394047c07ff58a/7ebf9/string-to-html.png 1919w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;All the best 👍.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to compare two strings in VueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ To compare the string in VueJS, we are using The directive  used to conditionally render a block…]]></description><link>https://sortoutcode.com/blog/how-to-compare-two-strings-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-compare-two-strings-in-vuejs/</guid><pubDate>Wed, 06 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
+&lt;p&gt;To compare the string in VueJS, we are using The directive &lt;code class=&quot;language-text&quot;&gt;v-if&lt;/code&gt; used to conditionally render a block. The block will only be rendered if the directive’s expression returns a truth value.&lt;/p&gt;
+&lt;p&gt;Today I am going to show you &lt;strong&gt;&lt;em&gt;How do you compare two strings in VueJS.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Table of contains&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Define &lt;strong&gt;sitename,siteurl&lt;/strong&gt; property for Test&lt;/li&gt;
+&lt;li&gt;Using the v-if directive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s start today’s tutorial &lt;strong&gt;&lt;em&gt;How do I compare two string in VueJS?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Define &lt;strong&gt;sitename,siteurl&lt;/strong&gt; property for Test&lt;/h2&gt;
+&lt;p&gt;Let’s define the &lt;strong&gt;sitename,siteurl&lt;/strong&gt; in the data of the &lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt; component for testing purposes.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FirstComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;sitename&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;SortoutCode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+            &lt;span class=&quot;token literal-property property&quot;&gt;siteurl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;https://sortoutcode.com/&quot;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Data is used to define properties in a particular component. In a single-file component, &lt;code class=&quot;language-text&quot;&gt;data()&lt;/code&gt; is a function that returns a set of properties that have been defined in the function.&lt;/p&gt;
+&lt;p&gt;we define the three properties that are &lt;strong&gt;sitename,siteurl&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Using the v-if directive&lt;/h2&gt;
+&lt;p&gt;we are using the &lt;strong&gt;v-if&lt;/strong&gt; directive to conditionally render the block. The block will only render if the directive’s expression returns a true value.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;span v&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;sitename == &apos;SortoutCode&apos;&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;SortoutCode&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;span&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p v&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;siteurl == &apos;https://sortoutcode.com/&apos;&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;https&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;sortoutcode&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;com&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;span v&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;sitename == &apos;website&apos;&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;SortoutCode&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;span&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FirstComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;sitename&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;SortoutCode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+            &lt;span class=&quot;token literal-property property&quot;&gt;siteurl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;https://sortoutcode.com/&quot;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;As you can see the output’s first two blocks are rendered because its expression value returns the true value.
+And the last expression value returns the false that’s why it does not render the last one block.&lt;/p&gt;
+&lt;p&gt;For now, let’s check the output.&lt;/p&gt;
+&lt;h2&gt;Output&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8a35365e1d2ca7222340d4fe4438d691/29114/campare-two-string.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.46835443037975%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABJ0AAASdAHeZh94AAAAn0lEQVQoz62RbQuDIBSF+///b47pvrQPWzMzbfSyMs/wsgZRjsYSHi5XDw8HTDgXCJw4B2PHFRgObxixfBfijDS9kCfBzicZxxETzrkPYYf3KI1FoQ2kKmCrB92tZScWDb33NPt+QF03JLvdc2RSIVcaTdthGNwsO2sYEzZti2smYWxFUqUNdGlI2nXP7cJYcGsm2jDMb/zU8K9f3lv4AudcwCKuUf3FAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;v-if directive&quot;
+        title=&quot;v-if directive&quot;
+        src=&quot;/static/8a35365e1d2ca7222340d4fe4438d691/f058b/campare-two-string.png&quot;
+        srcset=&quot;/static/8a35365e1d2ca7222340d4fe4438d691/c26ae/campare-two-string.png 158w,
+/static/8a35365e1d2ca7222340d4fe4438d691/6bdcf/campare-two-string.png 315w,
+/static/8a35365e1d2ca7222340d4fe4438d691/f058b/campare-two-string.png 630w,
+/static/8a35365e1d2ca7222340d4fe4438d691/40601/campare-two-string.png 945w,
+/static/8a35365e1d2ca7222340d4fe4438d691/78612/campare-two-string.png 1260w,
+/static/8a35365e1d2ca7222340d4fe4438d691/29114/campare-two-string.png 1920w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;All the best 👍.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to create a hello world example in VueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ To create or set up the hello world example in vueJS, we are using the VueJS Component with props…]]></description><link>https://sortoutcode.com/blog/hello-world-example-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/hello-world-example-in-vuejs/</guid><pubDate>Tue, 05 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
+&lt;p&gt;To create or set up the hello world example in vueJS, we are using the VueJS &lt;strong&gt;&lt;em&gt;Component&lt;/em&gt;&lt;/strong&gt; with props message, Using the Component props we are showing the “Hello World” string.&lt;/p&gt;
+&lt;p&gt;Today I am going to show you &lt;strong&gt;&lt;em&gt;How you create a hello world example in VueJS.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Table of contains&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install vue-cli globally&lt;/li&gt;
+&lt;li&gt;Create vue Project&lt;/li&gt;
+&lt;li&gt;Run the Project&lt;/li&gt;
+&lt;li&gt;Pass the &lt;strong&gt;msg&lt;/strong&gt; as props&lt;/li&gt;
+&lt;li&gt;Show the Props in Component&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s start today’s tutorial &lt;strong&gt;&lt;em&gt;How do I create a hello world example in VueJS?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Install vue-cli globally&lt;/h2&gt;
+&lt;p&gt;First of all, you need to install the &lt;strong&gt;NodeJS&lt;/strong&gt; In your system. You can download and install the application from the &lt;strong&gt;NodeJS&lt;/strong&gt; official website. After that need to install the &lt;strong&gt;vue-cli&lt;/strong&gt; globally in our system.&lt;/p&gt;
+&lt;p&gt;For that we are using this command &lt;code class=&quot;language-text&quot;&gt;npm install -g @vue/cli&lt;/code&gt;, It will take some time to install all the packages in our system.&lt;/p&gt;
+&lt;p&gt;After installation, you will have access to the &lt;strong&gt;vue&lt;/strong&gt; binary in your command line. You can verify that it is properly installed by simply running &lt;strong&gt;vue&lt;/strong&gt;, which should present you with a help message listing all available commands.&lt;/p&gt;
+&lt;p&gt;To verify that it is properly installed or not. we are using the following command:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;vue --version&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Create vue Project&lt;/h2&gt;
+&lt;p&gt;To create the vue hello world project, we are using the following command:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;vue create hello-world&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;It will be asked you for which version &lt;strong&gt;Vue 3&lt;/strong&gt; OR &lt;strong&gt;Vue 2&lt;/strong&gt; to install &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 488px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/77d440c1f7475df803ff4e2fc4255bf4/bd48c/select-vue-version.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 32.278481012658226%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA/ElEQVQY03WQzUrDUBCFb3dJ7m9yk6YNqZI0rUQoXRRXPqfg0jfQlTuTiooLH+qTphUpNIvDOTDwzZkRD49PPL+8sv/4Zv/5w/79i67r6Lo3+r4/5Y7+5EPu+1EJOy1J8wXa5aSzCmVSrLW42BMEIVobpFQopTHGYLRmMpkghLisedXQ7u65vtmwWmZsW0tTee62nrZx1FXGbpNQVwXeZ2RZegSPSJTlgra9pa6XXC1mrJuCskhZN3NWy5J8mpD5AJ8YwjAiiiKklCilLkporYnjGOcc1rrhVG0s1iVYF2OMJQwlUXQOGYOKw+Bvq5T/DeTg522OvxxvdwD+Am++tvhmwqo+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Create Vue Project&quot;
+        title=&quot;Create Vue Project&quot;
+        src=&quot;/static/77d440c1f7475df803ff4e2fc4255bf4/bd48c/select-vue-version.png&quot;
+        srcset=&quot;/static/77d440c1f7475df803ff4e2fc4255bf4/c26ae/select-vue-version.png 158w,
+/static/77d440c1f7475df803ff4e2fc4255bf4/6bdcf/select-vue-version.png 315w,
+/static/77d440c1f7475df803ff4e2fc4255bf4/bd48c/select-vue-version.png 488w&quot;
+        sizes=&quot;(max-width: 488px) 100vw, 488px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Run the Project&lt;/h2&gt;
+&lt;p&gt;After the installation of all packages is done. It will give you the two commands to start the project:&lt;/p&gt;
+&lt;p&gt;The first command will be &lt;code class=&quot;language-text&quot;&gt;cd hello-world&lt;/code&gt; and the second command will be &lt;code class=&quot;language-text&quot;&gt;npm run serve&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 593px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a1b966c62995e082eb0e8b81abddb6b2/0b5b1/project-created.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 89.24050632911393%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB20lEQVQ4y62TWY+bMBRGkZp0WB0TCIvBZgmUhJ9b9aXvpYs6muchf+6rfIfSNAkZadqHT5fFPjr3GoyPnz7j+48nfP32E4PO8AXDMODx8QnPz+NLxhPGccTpNFK9FyPJW6iqRVEfoaoOUuYIwxBxxJAnDgL+HtvNO5gPa6xWK6zXq6mub8ao6gpNU+PYH9EfOzRti677gP54wH5foygkylIhywQyIZAKgTzPsdls4LouPM/7K4bnMXph2zZVy7KoOo4Dy7KpeoxNG/4A9JpbMbRRS1Yd+r7H4dChrmukaTob/F6s4ec5fzYDt0GALMuwbxpqUcOapoHIMigpoVRBLQZBcGVzDpqBcZzQYs597HY7+L4Pzjk439AYLq0uja6A9X6PqqpQliW1re1yKVEohfCG1ZLZDNQ2cRzTzLStbl8IQdYvB2PBshyYpj0f0j2oEScJiqKYZyeloqqNdfJcQAqGQgaQGQfzXjEMwx2SNKXo4aciR5omEHQv6UPPRIyqVBBpBJdm6C4D/TACS0qwWIElFdxtDNN8oFZN05xatqdre4ItH4zBuA+2jcD8ECyI4DFOG5YM7rVLwCjSbdhw7CkLH+xroBn4Fou7wMvf6K2gK8P/AVts+V+AvwCLj9BteMp/pAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Install Done&quot;
+        title=&quot;Install Done&quot;
+        src=&quot;/static/a1b966c62995e082eb0e8b81abddb6b2/0b5b1/project-created.png&quot;
+        srcset=&quot;/static/a1b966c62995e082eb0e8b81abddb6b2/c26ae/project-created.png 158w,
+/static/a1b966c62995e082eb0e8b81abddb6b2/6bdcf/project-created.png 315w,
+/static/a1b966c62995e082eb0e8b81abddb6b2/0b5b1/project-created.png 593w&quot;
+        sizes=&quot;(max-width: 593px) 100vw, 593px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Run the Project&lt;/h2&gt;
+&lt;p&gt;Using the &lt;code class=&quot;language-text&quot;&gt;cd hello-world&lt;/code&gt; go to vue project folder. To run the project using this &lt;code class=&quot;language-text&quot;&gt;npm run serve&lt;/code&gt; command:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 627px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9f77bb2f5ae1e903f160d76ac04ab61b/e9c9b/run-the-project.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.77215189873418%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAABGElEQVQoz43QzU7CQBiF4XGKSqe/0xYqpZZppTXqneoVQKPojrQLFrrw7l5TFhgTISyefDOZfCcnI16+n3n7emW9WbN6X9FuWtqPlu1uS7/r6T97ul1H151HXDWXWInEUhaWkoxsyUhJ5PgCORLIa4E1lkh5HpHqG6qiwhSG/LZExyl+mBDoKXqS7nmuh+f7eN7AO0mEOqS5b5hnM8KsIhjMSsJ5jS5q0scnwnSKY9u4jsJ1HFzXPUpkWYYxhtIYFouC5fKOpq6pSkNlDPk8Z3ZbkhUGUz+Q5QXOEHwsMAgCoigmjmN0FJEkk/15EEURWmt8neCFEd4wgxDnREsxPCqlftn237tSOAf2od2w91+wOPUfx5xq+ANnH96uQYMwEgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Install Done&quot;
+        title=&quot;Install Done&quot;
+        src=&quot;/static/9f77bb2f5ae1e903f160d76ac04ab61b/e9c9b/run-the-project.png&quot;
+        srcset=&quot;/static/9f77bb2f5ae1e903f160d76ac04ab61b/c26ae/run-the-project.png 158w,
+/static/9f77bb2f5ae1e903f160d76ac04ab61b/6bdcf/run-the-project.png 315w,
+/static/9f77bb2f5ae1e903f160d76ac04ab61b/e9c9b/run-the-project.png 627w&quot;
+        sizes=&quot;(max-width: 627px) 100vw, 627px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;You can go to the browser and run the project on Local &lt;strong&gt;&lt;a href=&quot;http://localhost:8080/&quot;&gt;http://localhost:8080/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bd9e30b12bd6383f2ec4474b90ac180b/ad00e/vue-project-output.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.16455696202532%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABOElEQVQoz52SSUoDQRSG+zQm6MJIAiJqlODCm3gCwVu4ElwJbj2BG6/gDTQ9VHW0jRl6Ss2/VGG3QxIjKfh4r179/PXqUV7v5BTdox729rto7XTQaG5ho7FZY/cVzV9nFdutNg4Oj9Hu7MKjlIIQAkIowihCFJEaW+8HAXw/RBhEePJ9V/uuscRxjCR5c9HDipVD4OLuBmdXl3jmw1VyeFprLENp7UTXj/c4f7h1uTbL9Za5Do0xDru4EFBSIeUlxiyHkRqM8/q8ij86XGTootYISQw/oogHCejgFQGN0Q8JOBdrGH5GxjiS0Qgvk3dkrFyo+dOwfja+xFlRYJrnMNrMXfxvQzdDJcGUwDidYphOMJMcXIk1Z2gMhJaQRiErC0yy1OX2krUNbXfWoOAzh92Xkrmvs8zwA5DuKvr5ax/RAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Vue Output&quot;
+        title=&quot;Vue Output&quot;
+        src=&quot;/static/bd9e30b12bd6383f2ec4474b90ac180b/f058b/vue-project-output.png&quot;
+        srcset=&quot;/static/bd9e30b12bd6383f2ec4474b90ac180b/c26ae/vue-project-output.png 158w,
+/static/bd9e30b12bd6383f2ec4474b90ac180b/6bdcf/vue-project-output.png 315w,
+/static/bd9e30b12bd6383f2ec4474b90ac180b/f058b/vue-project-output.png 630w,
+/static/bd9e30b12bd6383f2ec4474b90ac180b/40601/vue-project-output.png 945w,
+/static/bd9e30b12bd6383f2ec4474b90ac180b/78612/vue-project-output.png 1260w,
+/static/bd9e30b12bd6383f2ec4474b90ac180b/ad00e/vue-project-output.png 1366w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Pass the &lt;strong&gt;msg&lt;/strong&gt; as props&lt;/h2&gt;
+&lt;p&gt;In the project, the folder goes to &lt;strong&gt;App.vue&lt;/strong&gt; change some code and run the project:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;HelloWorld msg&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+ 
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; HelloWorld &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;./components/HelloWorld.vue&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+ 
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;App&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;components&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    HelloWorld&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+ 
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+#app &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;family&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; Avenir&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Helvetica&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Arial&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; sans&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;serif&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;webkit&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;smoothing&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; antialiased&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;moz&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;osx&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;smoothing&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; grayscale&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  text&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;align&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; center&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; #2c3e50&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  margin&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;top&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 60px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Show the Props in Component&lt;/h2&gt;
+&lt;p&gt;Show the props message in &lt;strong&gt;HelloWorld.vue&lt;/strong&gt; component which is inside the &lt;code class=&quot;language-text&quot;&gt;./src/components/&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;hello&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; msg &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+ 
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;HelloWorld&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; String&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+ 
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt; Add &lt;span class=&quot;token string&quot;&gt;&quot;scoped&quot;&lt;/span&gt; attribute to limit &lt;span class=&quot;token constant&quot;&gt;CSS&lt;/span&gt; to &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt; component only &lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;style scoped&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+h3 &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 40px &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+ul &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  list&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;type&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; none&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+li &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; inline&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;block&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; 10px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+a &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; #42b983&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Let’s check the output of the &lt;strong&gt;hello world&lt;/strong&gt; examples.&lt;/p&gt;
+&lt;h2&gt;Output&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/640c26f0138383d1a026f7aff2859a80/ad00e/final-output.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.16455696202532%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtklEQVQoz+WRbQcCQRSF598Ufeh1RWlXVh/615FY2tgoIiLmzsb2C5qXkxkqanbbPnd5HO65c51rWDybI4xijMYRur0AjWbrZ9qdPibhFINgCCaEAJEACQHOOTgnEJFT6/mwHqcXeX5BUVydMtQsU3OOaa3xjtLamcfTGYvVGmm2R5JusUw2yHYH5/neWbwJjTFPvUkJqRSU0pBSOrX9x8xHwtITTfmRVd7XhD6qltb+lLr1hwvvg5syC8CwbZUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Final Vue Output&quot;
+        title=&quot;Final Vue Output&quot;
+        src=&quot;/static/640c26f0138383d1a026f7aff2859a80/f058b/final-output.png&quot;
+        srcset=&quot;/static/640c26f0138383d1a026f7aff2859a80/c26ae/final-output.png 158w,
+/static/640c26f0138383d1a026f7aff2859a80/6bdcf/final-output.png 315w,
+/static/640c26f0138383d1a026f7aff2859a80/f058b/final-output.png 630w,
+/static/640c26f0138383d1a026f7aff2859a80/40601/final-output.png 945w,
+/static/640c26f0138383d1a026f7aff2859a80/78612/final-output.png 1260w,
+/static/640c26f0138383d1a026f7aff2859a80/ad00e/final-output.png 1366w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;All the best 👍.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to use conditional render in VueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ To render the block conditionally, we are using the  directive. It renders the block if the…]]></description><link>https://sortoutcode.com/blog/how-to-use-conditional-render-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-use-conditional-render-in-vuejs/</guid><pubDate>Mon, 04 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
+&lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
+&lt;p&gt;To render the block conditionally, we are using the &lt;code class=&quot;language-text&quot;&gt;v-if&lt;/code&gt; directive. It renders the block if the directive’s expression returns the truth value.&lt;/p&gt;
+&lt;p&gt;Today I am going to show you &lt;strong&gt;&lt;em&gt;How do you use conditional rendering in VueJS.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Table of contains&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Define &lt;strong&gt;sitename,searchText&lt;/strong&gt; property for Test&lt;/li&gt;
+&lt;li&gt;Using the v-if directive&lt;/li&gt;
+&lt;li&gt;Using the v-else-if directive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s start today’s tutorial &lt;strong&gt;&lt;em&gt;How do I use conditional rendering in VueJS?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Define &lt;strong&gt;sitename,searchText&lt;/strong&gt; property for Test&lt;/h2&gt;
+&lt;p&gt;Let’s define the &lt;strong&gt;sitename&lt;/strong&gt; in the data of the &lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt; component for testing purposes.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;FirstComponent.vue&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FirstComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;sitename&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;sortoutcode.com&quot;&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;searchText&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Data is used to define properties in a particular component. In a single-file component, &lt;code class=&quot;language-text&quot;&gt;data()&lt;/code&gt; is a function that returns a set of properties that have been defined in the function.&lt;/p&gt;
+&lt;p&gt;we define the three properties that are &lt;strong&gt;sitename,searchText&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Using the v-if And v-else directive&lt;/h2&gt;
+&lt;p&gt;we are using the &lt;strong&gt;v-if&lt;/strong&gt; directive to conditionally render the block. The block will only render if the directive’s expression returns a true value.&lt;/p&gt;
+&lt;p&gt;If the &lt;strong&gt;v-if&lt;/strong&gt; directive expression returns the false value &lt;strong&gt;v-else&lt;/strong&gt; block will render.&lt;/p&gt;
+&lt;p&gt;You can see the code:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;button @click&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;sitename = !sitename&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Toggle&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;button&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1 v&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;sitename&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Hi Friends Welcome To SortoutCode&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1 v&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Welcome to Infinitbility&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FirstComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;sitename&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;sortoutcode.com&quot;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For now, let’s check the output of the &lt;strong&gt;v-if And v-else&lt;/strong&gt; directive.&lt;/p&gt;
+&lt;h2&gt;Output&lt;/h2&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/sortoutcode/sortoutcode-images/main/v-if-conditional-randering.gif&quot; alt=&quot;v-if And v-else directive&quot; width=&quot;100%&quot;&gt;
+&lt;h2&gt;Using the v-else-if directive&lt;/h2&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;v-else-if&lt;/code&gt; as the name suggests the &lt;strong&gt;else-if&lt;/strong&gt; block.It renders on multiple conditions, it works just like the normal &lt;strong&gt;ifelse&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;input type&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;text&quot;&lt;/span&gt; v&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;model&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;searchText&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;button @click&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;sitename = searchText&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Toggle&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;button&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1 v&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;sitename == &apos;sortoutcode&apos;&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Hi Friends Welcome To sortoutcode&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;com&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1 v&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;sitename == &apos;aguidehub&apos;&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Hi Friends Welcome To aguidehub&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;com&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1 v&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;sitename == &apos;infinitbility&apos;&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Hi Friends Welcome To infinitbility&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;com&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;template&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FirstComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;sitename&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;token literal-property property&quot;&gt;searchText&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For now, let’s check the output of the &lt;strong&gt;v-else-if&lt;/strong&gt; directive.&lt;/p&gt;
+&lt;h2&gt;Output&lt;/h2&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/sortoutcode/sortoutcode-images/main/v-else-if-conditional-rendering.gif&quot; alt=&quot;v-else-if directive&quot; width=&quot;100%&quot;&gt;
+&lt;p&gt;All the best 👍.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to show data in a table dynamically in VueJS?]]></title><description><![CDATA[Hi Friends 👋, Welcome To SortoutCode! ❤️ To show data in the table dynamically in vueJS, we are using the v-for directive to show data in…]]></description><link>https://sortoutcode.com/blog/how-to-show-data-in-table-dynamically-in-vuejs/</link><guid isPermaLink="false">https://sortoutcode.com/blog/how-to-show-data-in-table-dynamically-in-vuejs/</guid><pubDate>Sat, 02 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Friends 👋,&lt;/p&gt;
 &lt;p&gt;Welcome To SortoutCode! ❤️&lt;/p&gt;
 &lt;p&gt;To show data in the table dynamically in vueJS, we are using the &lt;strong&gt;v-for&lt;/strong&gt; directive to show data in the table dynamically, And render a list of items based on an array.&lt;/p&gt;
 &lt;p&gt;Today I am going to show you &lt;strong&gt;&lt;em&gt;How you show data in a table dynamically in VueJS.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -152,14 +1274,12 @@
     &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;FirstComponent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
     &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
             &lt;span class=&quot;token literal-property property&quot;&gt;tableData&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
             &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;sitename&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Infinitbility&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;site_url&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;https://infinitbility.com/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
             &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;sitename&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;SortOutCode&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;site_url&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;https://sortoutcode.com/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
             &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;sitename&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Aguidehub&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;site_url&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;https://aguidehub.com/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
             &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;sitename&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Test&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;site_url&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;https://test.com/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
             &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
